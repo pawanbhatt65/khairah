@@ -1,0 +1,2141 @@
+@media (max-width: 576px){
+    // header section start 
+    header{
+        // topbar start 
+        .topbar {
+            .container-fluid.container-xxl{
+                .row{
+                    grid-gap: 12px;
+                    .col-12.col-md-6{
+                        &:nth-child(1) {
+                            justify-content: center;
+                            .head-location {
+                                justify-content: center;
+                            }
+                        }
+                        &:nth-child(2) {
+                            justify-content: space-around;
+                            .head-media {
+                                justify-content: space-around;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        // topbar end 
+        // navbar start 
+        .navbar-main{
+            .container-fluid.container-xxl {
+                .nav-list-item {
+                    .btn-collapse {
+                        display: block;
+                        margin-right: 6px;
+                    }
+                    .collapse-navbar{
+                        display: none;
+                        position: relative;
+                        #collapsable{
+                            display: block;
+                        }
+                        ul{
+                            position: fixed;
+                            top: 0px;
+                            right: 0px;
+                            background: $text-white;
+                            width: 300px;
+                            height: 100vh;
+                            padding: 30px 0px;
+                            z-index: 10;
+                            border: 1px solid $text-black;
+                            li{
+                                display: block;
+                                margin: 5px 0px;
+                                border-bottom: 1px solid $text-black;
+                                padding: 10px 0px 10px 20px;
+                                position: relative;
+                                &::after{
+                                    font-family: "Font Awesome 5 Free"; 
+                                    font-weight: 900; 
+                                    position: absolute;
+                                    top: 10px;
+                                    right: 10px;
+                                    color: $text-black;
+                                    background-color: transparent;
+                                }
+                                &:nth-child(1){
+                                    &::after{
+                                        content: "";
+                                    }
+                                }
+                                &:nth-child(2){
+                                    &::after{
+                                        content: "\f078";
+                                    }
+                                    .navbarItems{
+                                        position: static;
+                                        .navbarItem{
+                                            position: static;
+                                            width: 100%;
+                                            height: 100%;
+                                            ul{
+                                                background-color: $text-white;
+                                                position: static;
+                                                box-shadow: 0px 0px 0px 0px;
+                                                margin-top: 0px;
+                                                padding: 20px 0px 0px 10px;
+                                                border: none;
+                                                li{
+                                                    &:nth-child(1){
+                                                        margin: 0px;
+                                                        padding: 0px;
+                                                        position: static;
+                                                        border: none;
+                                                        position: relative;
+                                                        &::before{
+                                                            position: absolute;
+                                                            content: '';
+                                                            bottom: 0px;
+                                                            left: -30px;
+                                                            width: 300px;
+                                                            height: 1px;
+                                                            background-color: $light-black;
+                                                        }
+                                                    }
+                                                    &:nth-child(2){
+                                                        border: none;
+                                                        padding-bottom: 0px;
+                                                    }
+                                                    &::after{
+                                                        content: '';
+                                                    }
+                                                    a{
+                                                        position: static;
+                                                        font-size: 16px;
+                                                        font-weight: 500;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                &:nth-child(3){
+                                    &::after{
+                                        content: "";
+                                    }
+                                }
+                                &:nth-child(4){
+                                    &::after{
+                                        content: "\f078";
+                                    }
+                                    .navbarItems{
+                                        position: static;
+                                        .navbarItem{
+                                            position: static;
+                                            width: 100%;
+                                            height: 100%;
+                                            ul{
+                                                background-color: $text-white;
+                                                position: static;
+                                                box-shadow: 0px 0px 0px 0px;
+                                                margin-top: 0px;
+                                                padding: 20px 0px 0px 10px;
+                                                border: none;
+                                                li{
+                                                    &:nth-child(1){
+                                                        margin: 0px;
+                                                        padding: 0px;
+                                                        border: none;
+                                                        position: static;
+                                                        &::before{
+                                                            position: absolute;
+                                                            content: '';
+                                                            bottom: 35%;
+                                                            left: 0px;
+                                                            width: 100%;
+                                                            height: 1px;
+                                                            background-color: $light-black;
+                                                        }
+                                                    }
+                                                    &:nth-child(2){
+                                                        border: none;
+                                                        padding-bottom: 0px;
+                                                    }
+                                                    &::after{
+                                                        content: '';
+                                                    }
+                                                    a{
+                                                        position: static;
+                                                        font-size: 16px;
+                                                        font-weight: 500;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                &:nth-child(5){
+                                    &::after{
+                                        content: "\f078";
+                                    }
+                                    .navbarItems{
+                                        position: static;
+                                        .navbarItem{
+                                            position: static;
+                                            width: 100%;
+                                            height: 100%;
+                                            ul{
+                                                background-color: $text-white;
+                                                position: static;
+                                                box-shadow: 0px 0px 0px 0px;
+                                                margin-top: 0px;
+                                                padding: 20px 0px 0px 10px;
+                                                border: none;
+                                                li{
+                                                    &:nth-child(1){
+                                                        margin: 0px;
+                                                        padding: 0px;
+                                                        border: none;
+                                                        position: static;
+                                                        &::before{
+                                                            position: absolute;
+                                                            content: '';
+                                                            bottom: 35%;
+                                                            left: 0px;
+                                                            width: 100%;
+                                                            height: 1px;
+                                                            background-color: $light-black;
+                                                        }
+                                                    }
+                                                    &:nth-child(2){
+                                                        border: none;
+                                                        padding-bottom: 0px;
+                                                    }
+                                                    &::after{
+                                                        content: '';
+                                                    }
+                                                    a{
+                                                        position: static;
+                                                        font-size: 16px;
+                                                        font-weight: 500;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                &:nth-child(6){
+                                    &::after{
+                                        content: "\f078";
+                                    }
+                                    .navbarItems{
+                                        position: static;
+                                        .navbarItem{
+                                            position: static;
+                                            width: 100%;
+                                            height: 100%;
+                                            ul{
+                                                background-color: $text-white;
+                                                position: static;
+                                                box-shadow: 0px 0px 0px 0px;
+                                                margin-top: 0px;
+                                                padding: 20px 0px 0px 10px;
+                                                border: none;
+                                                li{
+                                                    position: relative;
+                                                    border: none;
+                                                    &:not(:last-child){
+                                                        padding: 10px 0px;
+                                                        &::before{
+                                                            position: absolute;
+                                                            content: '';
+                                                            bottom: 0px;
+                                                            left: -30px;
+                                                            width: 300px;
+                                                            height: 1px;
+                                                            background-color: $light-black;
+                                                        }
+                                                    }
+                                                    &:nth-child(1){
+                                                        margin: 0px;
+                                                    }
+                                                    &::after{
+                                                        content: '';
+                                                    }
+                                                    a{
+                                                        position: static;
+                                                        font-size: 16px;
+                                                        font-weight: 500;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                &:nth-child(7){
+                                    &::after{
+                                        content: "\f078";
+                                    }
+                                    .navbarItems{
+                                        position: static;
+                                        .navbarItem{
+                                            position: static;
+                                            width: 100%;
+                                            height: 100%;
+                                            ul{
+                                                background-color: $text-white;
+                                                position: static;
+                                                box-shadow: 0px 0px 0px 0px;
+                                                margin-top: 0px;
+                                                padding: 20px 0px 0px 10px;
+                                                border: none;
+                                                li{
+                                                    position: relative;
+                                                    border: none;
+                                                    &:not(:last-child){
+                                                        padding: 10px 0px;
+                                                        &::before{
+                                                            position: absolute;
+                                                            content: '';
+                                                            bottom: 0px;
+                                                            left: -30px;
+                                                            width: 300px;
+                                                            height: 1px;
+                                                            background-color: $light-black;
+                                                        }
+                                                    }
+                                                    &:nth-child(1){
+                                                        margin: 0px;
+                                                    }
+                                                    &::after{
+                                                        content: '';
+                                                    }
+                                                    a{
+                                                        position: static;
+                                                        font-size: 16px;
+                                                        font-weight: 500;
+                                                    }
+                                                    &:last-child{
+                                                        .full-detail{
+                                                            top: 100%;
+                                                            left: -30px;
+                                                            height: auto;
+                                                            width: 300px;
+                                                            z-index: 3;
+                                                            ul{
+                                                                padding-left: 40px;
+                                                                li{
+                                                                    &::before{
+                                                                        left: -40px;
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                &:nth-child(8){
+                                    &::after{
+                                        content: "";
+                                    }
+                                }
+                                .active{
+                                    &::before{
+                                        opacity: 0;
+                                    }
+                                }
+                                .navbarItems{
+                                    a{
+                                        padding: 0px;
+                                        color: $text-black;
+                                        &:hover{
+                                            &::before{
+                                                opacity: 0;
+                                            }
+                                        }
+                                    }
+                                    .active{
+                                        &::before{
+                                            opacity: 0;
+                                        }
+                                    }
+                                }
+                                a{
+                                    padding: 0px;
+                                    color: $text-black;
+                                    &:hover{
+                                        &::before{
+                                            opacity: 0;
+                                        }
+                                    }
+                                }
+                                .active{
+                                    &::before{
+                                        opacity: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .navbar-list{
+                        margin: 0px 10px 0px 0px;
+                        li{
+                            &:nth-child(2){
+                                display: none;
+                            }
+                        }
+                    }
+                    .cart-search-contact{
+                        display: none;
+                    }
+                }
+            }
+        } 
+        // navbar end 
+    }
+    // header section end 
+    // wait start 
+    .wait{
+        .slider{
+            padding: 100px 0px;
+            .container{
+                .col-12.col-md-8{
+                    .wait-food{
+                        .wait-children {
+                            font-size: 24px;
+                        }
+                        p {
+                            font-size: 16px;
+                            padding-right: 0px;
+                        }
+                    }
+                }
+            }
+            .slider-slide {
+                display: none;
+            }
+        }
+        .dots {
+            top: 90%;
+            right: 0px;
+            left: 0px;
+            margin: auto;
+            text-align: center;
+            .dot {
+                display: inline-block;
+            }
+        }
+    }
+    // wait end 
+    // area start 
+    .area{
+        &::after{
+            opacity: 0;
+        }
+        .container{
+            .row{
+                .col-12.col-lg-5{
+                    .about-circle {
+                        padding: 80px 0px;
+                        &::before{
+                            opacity: 0;
+                        }
+                    }
+                }
+                .col-12.col-lg-6.offset-lg-1 {
+                    .area-org{
+                        @include flex;
+                        flex-direction: column;
+                        text-align: center;
+                        padding-bottom: 50px;
+                        h1{
+                            font-size: 34px;
+                        }
+                        p{
+                            padding: 0px 20px;
+                        }
+                        ul{
+                            li{
+                                display: block;
+                                &::before {
+                                    height: 80px;
+                                    width: 80px;
+                                }
+                                a{
+                                    font-size: 25px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // area end 
+    // features area start
+    .features-area {
+        .container{
+            .row{
+                .col-12.col-lg-5{
+                    .features-journey{
+                        h1 {
+                            font-size: 42px;
+                            padding-right: 0px;
+                        }
+                    }
+                }
+                .col-12.col-lg-7{
+                    .features-box {
+                        grid-template-columns: 100%;
+                        margin: 25px;
+                        grid-gap: 10px;
+                    }
+                }
+            }
+        }
+    }
+    // features area end
+    // causes start
+    .causes{
+        .container{
+            .col-lg-6.offset-lg-3.text-center{
+                .causes-heading{
+                    h1 {
+                        font-size: 30px;
+                        margin: 20px 0px 20px;
+                    }
+                    p {
+                        padding: 0px 22px;
+                    }
+                }
+            }
+            .row{
+                .col-12.col-md-6.col-xl-4{
+                    .causes-type{
+                        .cause-discription{
+                            h3{
+                                a{
+                                    font-size: 27px;
+                                }
+                            }
+                            p {
+                                padding: 0px 38px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // causes end
+    // contact us start
+    .contact{
+        .container{
+            .row{
+                gap: 20px;
+                .col-12.col-lg-5{
+                    .contact-left{
+                        h1 {
+                            font-size: 27px;
+                            padding-right: 0px;
+                        }
+                    }
+                }
+                .col-12.col-lg-6.offset-lg-1{
+                    .contact-right {
+                        flex-direction: column;
+                        .cta-number {
+                            p {
+                                font-size: 28px;
+                            }
+                        }
+                        .cta-email{
+                            p {
+                                font-size: 28px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // contact us end
+    // upcomingEvents start
+    .events {
+        .container{
+            .row{
+                .col-lg-6.offset-lg-3.text-center{
+                    .event-info{
+                        margin-bottom: 20px;
+                        h4 {
+                            font-size: 20px;
+                            padding: 14px 54px 26px;
+                        }
+                        h1{
+                            font-size: 38px;
+                        }
+                        p{
+                            padding: 0px 10px;
+                        }
+                    }
+                }
+                .col-12{
+                    padding: 0px;
+                    .event-items{
+                        .event-item {
+                            flex-direction: column;
+                            .event-img{
+                                margin-right: 0px;
+                            }
+                            .event-text{
+                                flex-direction: column;
+                                .event-date{
+                                    margin: 20px 0px;
+                                    width: 100%;
+                                }
+                                .event-suffer-child{
+                                    h3{
+                                        a {
+                                            font-size: 24px;
+                                        }
+                                    }
+                                    p{
+                                        padding-right: 0px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .shape-1{
+            opacity: 0;
+        }
+    }
+    // upcomingEvents end
+    // volunteer start 
+    .volunteer{
+        .container{
+            .row{
+                .col-lg-6.offset-lg-3.text-center{
+                    .great-volunteer{
+                        h1 {
+                            font-size: 32px;
+                        }
+                        p{
+                            padding: 0px 20px;
+                        }
+                    }
+                }
+                .col-12.col-md-6.col-lg-3{
+                    .volunteer-person {
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
+    }
+    // volunteer end 
+    // volunteer-comment start 
+    .comment {
+        &::before{
+            border: none;
+        }
+        .container{
+            .row{
+                .col-12{
+                    .testimonial{
+                        .testimonial-slider.text-center{
+                            .join-person {
+                                width: 100%;
+                            }
+                            .person-query{
+                                p {
+                                    padding: 0px 0px;
+                                }
+                            }
+                        }
+                        .testimonial-arrow {
+                            top: 103%;
+                            width: 45px;
+                            height: 45px;
+                            line-height: 45px;
+                            font-size: 16px;
+                        }
+                        .testimonial-next {
+                            right: 120px;
+                        }
+                        .testimonial-prev {
+                            left: 120px;
+                        }
+                    }
+                }
+            }
+        }
+        .testimonial-shape-2{
+            bottom: 20px;
+        }
+    }
+    // volunteer-comment end 
+    // latestNews start
+    .latestNews{
+        .container{
+            .row{
+                .col-lg-6.offset-lg-3.text-center{
+                    .news-info{
+                        h4 {
+                            padding: 10px 50px 20px;
+                        }
+                        p{
+                            padding: 0px 0px;
+                        }
+                    }
+                }
+                .col-12.col-lg-6{
+                    .news-content {
+                        flex-direction: column;
+                        align-items: inherit;
+                        gap: 0px;
+                        .bless-news {
+                            margin-top: 30px;
+                            h1 {
+                                margin: 10px 0px 20px;
+                                a{
+                                    font-size: 25px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // latestNews end
+    // footer-section start
+    .footer{
+        .footer-top{
+            padding: 60px 0px 26px;
+            .container{
+                .row{
+                    .col-12.col-md-6.col-lg-3{
+                        &:nth-child(1){
+                            margin-bottom: 30px;
+                            .footer-media {
+                                padding: 0px 0px;
+                                p{
+                                    margin-top: 20px;
+                                }
+                                ul{
+                                    display: block;
+                                    li{
+                                        display: inline-block;
+                                        &:not(:last-child){
+                                            margin-right: 20px;
+                                            a{
+                                                font-size: 20px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        &:nth-child(2){
+                            margin-bottom: 30px;
+                            .footer-media{
+                                padding: 0px;
+                                ul{
+                                    margin-top: 20px;
+                                }
+                            }
+                        }
+                        &:nth-child(3){
+                            margin-bottom: 30px;
+                            .footer-contact{
+                                padding: 0px;
+                                p{
+                                    margin-top: 20px;
+                                }
+                            }
+                        }
+                        &:nth-child(4){
+                            .footer-insta{
+                                padding: 0px;
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // footer-section end
+}
+@media(min-width: 450px) and (max-width: 576px){
+    // header section start
+    header{
+        .navbar-main{
+            .container-fluid.container-xxl{
+                .nav-list-item{
+                    .navbar-list{
+                        margin: 0px 40px 0px 0px;
+                        li{
+                            &:nth-child(2) {
+                                display: inline-block;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // header section end 
+    // area start
+    .area{
+        .container{
+            .row{
+                .col-12.col-lg-6.offset-lg-1{
+                    .area-org{
+                        ul{
+                            li {
+                                display: inline-block;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // area end
+    // contact us start 
+    .contact{
+        .container{
+            .row{
+                .col-12.col-lg-5{
+                    .contact-left{
+                        h1 {
+                            font-size: 27px;
+                            padding: 15px;
+                        }
+                    }
+                }
+                .col-12.col-lg-6.offset-lg-1{
+                    .contact-right {
+                        flex-direction: row;
+                        justify-content: space-around;
+                    }
+                }
+            }
+        }
+    }
+    // contact us end
+    // upcomingEvents start
+    .events{
+        .container{
+            .row{
+                .col-12{
+                    .event-items{
+                        .event-item{
+                            .event-text {
+                                flex-direction: row;
+                                margin-top: 20px;
+                                .event-suffer-child{
+                                    .event-location{
+                                        li {
+                                            font-size: 16px;
+                                            &:nth-child(1){
+                                                margin-right: 10px;
+                                            }
+                                        }
+                                    }
+                                    h3{
+                                        a{
+                                            font-size: 22px;
+                                        }
+                                    }
+                                }
+                                .event-date{
+                                    margin: 0px 20px 0px 0px;
+                                    width: 50%;
+                                    padding: 30px 0px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // upcomingEvents end
+    // volunteer start 
+    .comment{
+        .container{
+            .row{
+                .col-12{
+                    .testimonial{
+                        .testimonial-next {
+                            right: 186px;
+                        }
+                        .testimonial-prev {
+                            left: 186px;
+                        }
+                    }
+                }
+            }
+        }
+        .testimonial-shape-2 {
+            bottom: 110px;
+        }
+    }
+    // volunteer end 
+}
+@media (min-width: 577px) and (max-width: 767px){
+    // header section start 
+    header{
+        // topbar start 
+        .topbar {
+            .container-fluid.container-xxl{
+                .row{
+                    grid-gap: 12px;
+                    .col-12.col-md-6{
+                        &:nth-child(1) {
+                            justify-content: center;
+                            .head-location {
+                                justify-content: center;
+                            }
+                        }
+                        &:nth-child(2) {
+                            justify-content: space-around;
+                            .head-media {
+                                justify-content: space-around;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        // topbar end 
+        // navbar start 
+        .navbar-main{
+            .container-fluid.container-xxl {
+                .nav-list-item {
+                    .btn-collapse {
+                        display: block;
+                        margin-right: 6px;
+                        margin-left: 10px;
+                    }
+                    .collapse-navbar{
+                        display: none;
+                        position: relative;
+                        #collapsable{
+                            display: block;
+                        }
+                        ul{
+                            position: fixed;
+                            top: 0px;
+                            right: 0px;
+                            background: $text-white;
+                            width: 300px;
+                            height: 100vh;
+                            padding: 30px 0px;
+                            z-index: 10;
+                            border: 1px solid $text-black;
+                            li{
+                                display: block;
+                                margin: 5px 0px;
+                                border-bottom: 1px solid $text-black;
+                                padding: 10px 0px 10px 20px;
+                                position: relative;
+                                &::after{
+                                    font-family: "Font Awesome 5 Free"; 
+                                    font-weight: 900; 
+                                    position: absolute;
+                                    top: 30%;
+                                    right: 10px;
+                                    color: $text-black;
+                                    background-color: transparent;
+                                }
+                                &:nth-child(){
+                                    &::after{
+                                        content: "";
+                                    }
+                                }
+                                &:nth-child(2){
+                                    &::after{
+                                        content: "\f078";
+                                    }
+                                }
+                                &:nth-child(3){
+                                    &::after{
+                                        content: "";
+                                    }
+                                }
+                                &:nth-child(4){
+                                    &::after{
+                                        content: "\f078";
+                                    }
+                                }
+                                &:nth-child(5){
+                                    &::after{
+                                        content: "\f078";
+                                    }
+                                }
+                                &:nth-child(6){
+                                    &::after{
+                                        content: "\f078";
+                                    }
+                                }
+                                &:nth-child(7){
+                                    &::after{
+                                        content: "";
+                                    }
+                                }
+                                .active{
+                                    &::before{
+                                        opacity: 0;
+                                    }
+                                }
+                                a{
+                                    padding: 0px;
+                                    color: $text-black;
+                                    &:hover{
+                                        &::before{
+                                            opacity: 0px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .navbar-list{
+                        margin: 0px 10px 0px 0px;
+                        li{
+                            &:nth-child(2){
+                                display: inline-block;
+                            }
+                        }
+                    }
+                    .cart-search-contact{
+                        display: block;
+                    }
+                }
+            }
+        } 
+        // navbar end 
+    }
+    // header section end 
+}
+@media (min-width: 768px) and (max-width: 991px){
+       // header section start 
+       header{
+        // navbar start 
+        .navbar-main{
+            .container-fluid.container-xxl {
+                .logo{
+                    margin-left: 10px;
+                }
+                .nav-list-item {
+                    .btn-collapse {
+                        display: block;
+                        margin-right: 6px;
+                        margin-left: 10px;
+                    }
+                    .collapse-navbar{
+                        display: none;
+                        position: relative;
+                        #collapsable{
+                            display: block;
+                        }
+                        ul{
+                            position: fixed;
+                            top: 0px;
+                            right: 0px;
+                            background: $text-white;
+                            width: 300px;
+                            height: 100vh;
+                            padding: 30px 0px;
+                            z-index: 10;
+                            border: 1px solid $text-black;
+                            li{
+                                display: block;
+                                margin: 5px 0px;
+                                border-bottom: 1px solid $text-black;
+                                padding: 10px 0px 10px 20px;
+                                position: relative;
+                                &::after{
+                                    font-family: "Font Awesome 5 Free"; 
+                                    font-weight: 900; 
+                                    position: absolute;
+                                    top: 10px;
+                                    right: 10px;
+                                    color: $text-black;
+                                    background-color: transparent;
+                                }
+                                &:nth-child(1){
+                                    &::after{
+                                        content: "";
+                                    }
+                                }
+                                &:nth-child(2){
+                                    &::after{
+                                        content: "\f078";
+                                    }
+                                    .navbarItems{
+                                        position: static;
+                                        .navbarItem{
+                                            position: static;
+                                            width: 100%;
+                                            height: 100%;
+                                            ul{
+                                                background-color: $text-white;
+                                                position: static;
+                                                box-shadow: 0px 0px 0px 0px;
+                                                margin-top: 0px;
+                                                padding: 20px 0px 0px 10px;
+                                                border: none;
+                                                li{
+                                                    &:nth-child(1){
+                                                        margin: 0px;
+                                                        padding: 0px;
+                                                        position: static;
+                                                        border: none;
+                                                        position: relative;
+                                                        &::before{
+                                                            position: absolute;
+                                                            content: '';
+                                                            bottom: 0px;
+                                                            left: -30px;
+                                                            width: 300px;
+                                                            height: 1px;
+                                                            background-color: $light-black;
+                                                        }
+                                                    }
+                                                    &:nth-child(2){
+                                                        border: none;
+                                                        padding-bottom: 0px;
+                                                    }
+                                                    &::after{
+                                                        content: '';
+                                                    }
+                                                    a{
+                                                        position: static;
+                                                        font-size: 16px;
+                                                        font-weight: 500;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                &:nth-child(3){
+                                    &::after{
+                                        content: "";
+                                    }
+                                }
+                                &:nth-child(4){
+                                    &::after{
+                                        content: "\f078";
+                                    }
+                                    .navbarItems{
+                                        position: static;
+                                        .navbarItem{
+                                            position: static;
+                                            width: 100%;
+                                            height: 100%;
+                                            ul{
+                                                background-color: $text-white;
+                                                position: static;
+                                                box-shadow: 0px 0px 0px 0px;
+                                                margin-top: 0px;
+                                                padding: 20px 0px 0px 10px;
+                                                border: none;
+                                                li{
+                                                    &:nth-child(1){
+                                                        margin: 0px;
+                                                        padding: 0px;
+                                                        border: none;
+                                                        position: static;
+                                                        &::before{
+                                                            position: absolute;
+                                                            content: '';
+                                                            bottom: 35%;
+                                                            left: 0px;
+                                                            width: 100%;
+                                                            height: 1px;
+                                                            background-color: $light-black;
+                                                        }
+                                                    }
+                                                    &:nth-child(2){
+                                                        border: none;
+                                                        padding-bottom: 0px;
+                                                    }
+                                                    &::after{
+                                                        content: '';
+                                                    }
+                                                    a{
+                                                        position: static;
+                                                        font-size: 16px;
+                                                        font-weight: 500;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                &:nth-child(5){
+                                    &::after{
+                                        content: "\f078";
+                                    }
+                                    .navbarItems{
+                                        position: static;
+                                        .navbarItem{
+                                            position: static;
+                                            width: 100%;
+                                            height: 100%;
+                                            ul{
+                                                background-color: $text-white;
+                                                position: static;
+                                                box-shadow: 0px 0px 0px 0px;
+                                                margin-top: 0px;
+                                                padding: 20px 0px 0px 10px;
+                                                border: none;
+                                                li{
+                                                    &:nth-child(1){
+                                                        margin: 0px;
+                                                        padding: 0px;
+                                                        border: none;
+                                                        position: static;
+                                                        &::before{
+                                                            position: absolute;
+                                                            content: '';
+                                                            bottom: 35%;
+                                                            left: 0px;
+                                                            width: 100%;
+                                                            height: 1px;
+                                                            background-color: $light-black;
+                                                        }
+                                                    }
+                                                    &:nth-child(2){
+                                                        border: none;
+                                                        padding-bottom: 0px;
+                                                    }
+                                                    &::after{
+                                                        content: '';
+                                                    }
+                                                    a{
+                                                        position: static;
+                                                        font-size: 16px;
+                                                        font-weight: 500;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                &:nth-child(6){
+                                    &::after{
+                                        content: "\f078";
+                                    }
+                                    .navbarItems{
+                                        position: static;
+                                        .navbarItem{
+                                            position: static;
+                                            width: 100%;
+                                            height: 100%;
+                                            ul{
+                                                background-color: $text-white;
+                                                position: static;
+                                                box-shadow: 0px 0px 0px 0px;
+                                                margin-top: 0px;
+                                                padding: 20px 0px 0px 10px;
+                                                border: none;
+                                                li{
+                                                    position: relative;
+                                                    border: none;
+                                                    &:not(:last-child){
+                                                        padding: 10px 0px;
+                                                        &::before{
+                                                            position: absolute;
+                                                            content: '';
+                                                            bottom: 0px;
+                                                            left: -30px;
+                                                            width: 300px;
+                                                            height: 1px;
+                                                            background-color: $light-black;
+                                                        }
+                                                    }
+                                                    &:nth-child(1){
+                                                        margin: 0px;
+                                                    }
+                                                    &::after{
+                                                        content: '';
+                                                    }
+                                                    a{
+                                                        position: static;
+                                                        font-size: 16px;
+                                                        font-weight: 500;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                &:nth-child(7){
+                                    &::after{
+                                        content: "\f078";
+                                    }
+                                    .navbarItems{
+                                        position: static;
+                                        .navbarItem{
+                                            position: static;
+                                            width: 100%;
+                                            height: 100%;
+                                            ul{
+                                                background-color: $text-white;
+                                                position: static;
+                                                box-shadow: 0px 0px 0px 0px;
+                                                margin-top: 0px;
+                                                padding: 20px 0px 0px 10px;
+                                                border: none;
+                                                li{
+                                                    position: relative;
+                                                    border: none;
+                                                    &:not(:last-child){
+                                                        padding: 10px 0px;
+                                                        &::before{
+                                                            position: absolute;
+                                                            content: '';
+                                                            bottom: 0px;
+                                                            left: -30px;
+                                                            width: 300px;
+                                                            height: 1px;
+                                                            background-color: $light-black;
+                                                        }
+                                                    }
+                                                    &:nth-child(1){
+                                                        margin: 0px;
+                                                    }
+                                                    &::after{
+                                                        content: '';
+                                                    }
+                                                    a{
+                                                        position: static;
+                                                        font-size: 16px;
+                                                        font-weight: 500;
+                                                    }
+                                                    &:last-child{
+                                                        .full-detail{
+                                                            top: 100%;
+                                                            left: -30px;
+                                                            height: auto;
+                                                            width: 300px;
+                                                            z-index: 3;
+                                                            ul{
+                                                                padding-left: 40px;
+                                                                li{
+                                                                    &::before{
+                                                                        left: -40px;
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                &:nth-child(8){
+                                    &::after{
+                                        content: "";
+                                    }
+                                }
+                                .active{
+                                    color: $text-black;
+                                    &::before{
+                                        opacity: 0;
+                                    }
+                                }
+                                .navbarItems{
+                                    a{
+                                        padding: 0px;
+                                        color: $text-black;
+                                        &:hover{
+                                            &::before{
+                                                opacity: 0;
+                                            }
+                                        }
+                                    }
+                                    .active{
+                                        color: $text-black;
+                                        &::before{
+                                            opacity: 0;
+                                        }
+                                    }
+                                }
+                                a{
+                                    color: $text-black;
+                                    padding: 0px 0px;
+                                    &:hover{
+                                        &::before{
+                                            opacity: 0;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .navbar-list{
+                        margin: 0px 10px 0px 0px;
+                        li{
+                            &:nth-child(2){
+                                display: inline-block;
+                            }
+                        }
+                    }
+                    .cart-search-contact{
+                        display: block;
+                    }
+                }
+            }
+        } 
+        // navbar end 
+    }
+    // header section end 
+    // wait start
+    .wait {
+        .slider{
+            .container{
+                .col-12.col-md-8{
+                    .wait-food{
+                        .wait-children {
+                            font-size: 40px;
+                        }
+                        p {
+                            padding-right: 25px;
+                        }
+                    }
+                }
+            }
+            .slider-slide {
+                display: none;
+            }
+        }
+        .dots {
+            top: 90%;
+            right: 0px;
+            left: 0px;
+            text-align: center;
+            .dot {
+                display: inline-block;
+            }
+        }
+    }
+    // wait end
+    // area start 
+    .area{
+        &::after{
+            opacity: 0;
+        }
+        .container{
+            .row{
+                .col-12.col-lg-5{
+                    .about-circle {
+                        padding: 80px 0px;
+                        &::before{
+                            opacity: 0;
+                        }
+                    }
+                }
+                .col-12.col-lg-6.offset-lg-1 {
+                    .area-org{
+                        @include flex;
+                        flex-direction: column;
+                        text-align: center;
+                        padding-bottom: 50px;
+                        h1{
+                            font-size: 34px;
+                        }
+                        p{
+                            padding: 0px 20px;
+                        }
+                        ul{
+                            li{
+                                &::before {
+                                    height: 80px;
+                                    width: 80px;
+                                }
+                                a{
+                                    font-size: 25px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // area end 
+    // features area start
+    .features-area{
+        .container{
+            .row{
+                .col-12.col-lg-5{
+                    .features-journey{
+                        h1 {
+                            font-size: 38px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // features area end
+    // causes start
+    .causes{
+        .container{
+            .col-lg-6.offset-lg-3.text-center{
+                .causes-heading{
+                   p{
+                       padding: 0px;
+                   }
+                }
+            }
+            .row{
+                .col-12.col-md-6.col-xl-4{
+                    .causes-type{
+                        .causes-img{
+                            ul{
+                                li{
+                                    a {
+                                        padding: 6px 20px;
+                                    }
+                                }
+                            }
+                        }
+                        .cause-discription{
+                            h3{
+                                a{
+                                    font-size: 24px;
+                                }
+                            }
+                            p {
+                                padding: 0px 32px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // causes end
+    // contact us start
+    .contact{
+        .container{
+            .row{
+                .col-12.col-lg-5{
+                    .contact-left{
+                        h1 {
+                            font-size: 38px;
+                            padding: 0px 14px;
+                        }
+                    }
+                }
+                .col-12.col-lg-6.offset-lg-1{
+                    .contact-right {
+                        justify-content: space-evenly;
+                        .cta-number{
+                            p {
+                                font-size: 34px;
+                            }
+                        }
+                        .cta-email{
+                            p {
+                                font-size: 34px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // contact us end
+    // upcomingEvents start
+    .events{
+        .container{
+            .row{
+                .col-lg-6.offset-lg-3.text-center{
+                    .event-info{
+                        p {
+                            padding: 0px 0px;
+                        }
+                    }
+                }
+                .col-12{
+                    .event-items{
+                        .event-item{
+                            .event-img{
+                                margin-right: 15px;
+                                img{
+                                    height: 75%;
+                                }
+                            }
+                            .event-text{
+                                .event-date {
+                                    padding: 10px 20px;
+                                    @include flex;
+                                    flex-direction: column;
+                                }
+                                .event-suffer-child{
+                                    .event-location{
+                                        li {
+                                            font-size: 18px;
+                                        }
+                                    }
+                                    h3{
+                                        margin: 10px 0px 10px;
+                                        a{
+                                            font-size: 24px;
+                                        }
+                                    }
+                                    p{
+                                        padding-right: 0px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .shape-1 {
+            top: 20px;
+            left: 20px;
+            img{
+                width: 75%;
+            }
+        }
+    }
+    // upcomingEvents end
+    // volunteer start 
+    .volunteer{
+        .container{
+            .row{
+                .col-12.col-md-6.col-lg-3{
+                    .volunteer-person {
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
+    }
+    // volunteer end 
+    // volunteer-comment start 
+    .comment{
+        .container{
+            .row{
+                .col-12{
+                    .testimonial{
+                        .testimonial-slider.text-center{
+                            .join-person{
+                                width: 50%;
+                            }
+                            .person-query{
+                                p {
+                                    padding: 0px 10px;
+                                }
+                            }
+                        }
+                        .testimonial-next {
+                            right: 50px;
+                        }
+                        .testimonial-prev {
+                            left: 50px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // volunteer-comment end 
+    // footer-section start
+    .footer{
+        .footer-top{
+            .container{
+                .row{
+                    .col-12.col-md-6.col-lg-3{
+                        &:nth-child(1){
+                            .footer-media {
+                                padding: 0px 0px;
+                            }
+                        }
+                        &:nth-child(2){
+                            .footer-links {
+                                padding: 0px 0px;
+                            }
+                        }
+                        &:nth-child(3){
+                            .footer-contact {
+                                padding: 0px 0px;
+                            }
+                        }
+                        &:nth-child(4){
+                            .footer-insta {
+                                padding: 0px 0px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // footer-section end
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    // header section start
+    header{
+        // navbar start 
+        .navbar-main{
+            .container-fluid.container-xxl{
+                padding: 15px 5px;
+                .nav-list-item{
+                    .collapse-navbar{
+                        ul{
+                            li{
+                                a {
+                                    padding: 25px 15px;
+                                }
+                            }
+                        }
+                    }
+                    .navbar-list {
+                        margin: 0px 10px 0px 0px;
+                    }
+                }
+            }
+        }
+        // navbar end 
+    }
+    // header section end 
+    // wait start 
+    .wait{
+        .slider{
+            .container{
+                .col-12.col-md-8{
+                    z-index: 2;
+                    .wait-food{
+                        .wait-children {
+                            font-size: 110px;
+                        }
+                        p {
+                            padding-right: 182px;
+                        }
+                    }
+                }
+            }
+            .slider-slide {
+                z-index: 1;
+            }
+        }
+        .dots {
+            right: 90px;
+        }
+    }
+    // wait end
+    // area start
+    .area {
+        &::after{
+            opacity: 0;
+        }
+        .container{
+            .row{
+                .col-12.col-lg-6.offset-lg-1{
+                    .area-org{
+                        h1 {
+                            font-size: 48px;
+                        }
+                        ul {
+                            li {
+                                padding-left: 96px;
+                                &::before{
+                                    height: 90px;
+                                    width: 90px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // area end
+    // features area start
+    .features-area{
+        .container{
+            .row{
+                .col-12.col-lg-5{
+                    .features-journey{
+                        h1 {
+                            font-size: 52px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // features area end
+    // causes start
+    .causes{
+        .container{
+            .col-lg-6.offset-lg-3.text-center{
+                .causes-heading{
+                    p {
+                        padding: 0px 20px;
+                    }
+                }
+            }
+        }
+    }
+    // causes end
+    // contact us start
+    .contact{
+        .container{
+            .row{
+                .col-12.col-lg-5{
+                    .contact-left{
+                        h1 {
+                            font-size: 32px;
+                            padding-right: 10px;
+                        }
+                    }
+                }
+                .col-12.col-lg-6.offset-lg-1{
+                    .contact-right{
+                        .cta-number{
+                            p {
+                                font-size: 28px;
+                            }
+                        }
+                        .cta-email{
+                            p {
+                                font-size: 28px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // contact us end
+    // upcomingEvents start
+    .events{
+        .container {
+            .row {
+                .col-lg-6.offset-lg-3.text-center {
+                    .event-info {
+                        p{
+                            padding: 0px;
+                        }
+                    }
+                }
+                .col-12{
+                    .event-items{
+                        .event-item{
+                            .event-img {
+                                margin-right: 20px;
+                            }
+                            .event-text{
+                                .event-date{
+                                    padding: 0px 30px;
+                                    margin-right: 10px;
+                                }
+                                .event-suffer-child{
+                                    h3{
+                                        margin: 10px 0px 10px;
+                                    }
+                                    p {
+                                        padding-right: 0px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // upcomingEvents end
+    // volunteer start 
+    .volunteer{
+        .container{
+            .row{
+                .col-lg-6.offset-lg-3.text-center{
+                    .great-volunteer{
+                        p {
+                            padding: 0px 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // volunteer end 
+    // volunteer-comment start 
+    .comment {
+        .container{
+            .row{
+                .col-12{
+                    .testimonial{
+                        .testimonial-slider.text-center{
+                            .join-person {
+                                width: 40%;
+                            }
+                            .person-query{
+                                p {
+                                    padding: 0px 120px;
+                                }
+                            }
+                        }
+                        .testimonial-next {
+                            right: 130px;
+                        }
+                        .testimonial-prev {
+                            left: 130px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // volunteer-comment end 
+    // latestNews start
+    .latestNews{
+        .container{
+            .row{
+                .col-lg-6.offset-lg-3.text-center{
+                    .news-info{
+                        p {
+                            padding: 0px 0px;
+                        }
+                    }
+                }
+                .col-12.col-lg-6 {
+                    .news-content{
+                        .bless-news{
+                            .blessing-time{
+                                time {
+                                    font-size: 16px;
+                                }
+                                ul{
+                                    li{
+                                        font-size: 16px;
+                                        margin: 0px 20px;
+                                    }
+                                }
+                            }
+                            h1{
+                                line-height: 25px;
+                                a{
+                                    font-size: 24px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // latestNews end
+    // footer-section start
+    .footer {
+        .footer-top{
+            .container{
+                .row{
+                    .col-12.col-md-6.col-lg-3{
+                        &:nth-child(1){
+                            .footer-media {
+                                padding: 0px 0px;
+                            }
+                        }
+                        &:nth-child(2){
+                            .footer-links {
+                                padding: 0px 0px;
+                            }
+                        }
+                        &:nth-child(3){
+                            .footer-contact {
+                                padding: 0px 0px;
+                            }
+                        }
+                        &:nth-child(4){
+                            .footer-insta {
+                                padding: 0px 0px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // footer-section end
+}
+@media(min-width: 1200px) and (max-width: 1400px){
+    // header section start 
+    header {
+        .navbar-main{
+            .container-fluid.container-xxl {
+                padding: 15px 10px;
+            }
+        }
+    }
+    // header section end 
+    // wait start
+    .wait{
+        .slider{
+            .container{
+                .col-12.col-md-8{
+                    .wait-food{
+                        .wait-children {
+                            font-size: 125px;
+                        }
+                        p {
+                            padding-right: 296px;
+                        }
+                    }
+                }
+            }
+            .slider-slide {
+                z-index: 1;
+            }
+        }
+        .dots {
+            right: 100px;
+        }
+    }
+    // wait end
+    // area start 
+    .area{
+        &::after{
+            width: 11%;
+        }
+    }
+    // area end 
+    // features area start
+    .features-area {
+        .container{
+            .row{
+                .col-12.col-lg-5{
+                    .features-journey{
+                        h1 {
+                            font-size: 50px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // features area end
+    // causes start
+    .causes{
+        .container{
+            .col-lg-6.offset-lg-3.text-center{
+                .causes-heading{
+                    p {
+                        padding: 0px 55px;
+                    }
+                }
+            }
+            .row{
+                .col-12.col-md-6.col-xl-4{
+                    .causes-type{
+                        .cause-discription{
+                            h3{
+                                a{
+                                    font-size: 26px;
+                                }
+                            }
+                            p {
+                                padding: 0px 30px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // causes end
+    // contact us start
+    .contact{
+        .container{
+            .row{
+                .col-12.col-lg-5{
+                    .contact-left{
+                        h1 {
+                            font-size: 42px;
+                            padding-right: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // contact us end
+    // upcomingEvents start
+    .events{
+        .container{
+            .row{
+                .col-12{
+                    .event-items{
+                        .event-item{
+                            .event-text{
+                                .event-suffer-child{
+                                    h3 {
+                                        margin: 10px 0px 10px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // upcomingEvents end
+    // volunteer-comment start 
+    .comment{
+        .container{
+            .row{
+                .col-12{
+                    .testimonial {
+                        .testimonial-slider.text-center{
+                            .person-query{
+                                p {
+                                    padding: 0px 240px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // volunteer-comment end 
+    // latestNews start
+    .latestNews{
+        .container{
+            .row{
+                .col-lg-6.offset-lg-3.text-center{
+                    .news-info{
+                        p {
+                            padding: 0px 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // latestNews end
+}

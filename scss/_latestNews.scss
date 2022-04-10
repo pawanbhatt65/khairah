@@ -1,0 +1,121 @@
+// latestNews start
+.latestNews{
+    padding: 70px 0px;
+    .container{
+        .row{
+            .col-lg-6.offset-lg-3.text-center{
+                .news-info{
+                    margin-bottom: 90px;
+                    h4{
+                        @include repeat;
+                        display: inline-block;
+                        padding: 20px 83px 30px;
+                        background-image: url(../images/comment2.png);
+                        text-transform: uppercase;
+                        font-weight: 600;
+                    }
+                    h1{
+                        font-weight: 700;
+                        margin: 30px 0px 20px;
+                    }
+                    p{
+                        font-family: khairah_r;
+                        color: $light-black;
+                        line-height: 26px;
+                        font-size: 18px;
+                        padding: 0px 94px;
+                    }
+                }
+            }
+            .col-12.col-lg-6{
+                // &:nth-child(1){
+                //     .news-content{
+                //         .news-img{
+                //             margin-right: 20px;
+                //         }
+                //     }
+                // }
+                // &:nth-child(2){
+                //     .news-content{
+                //         .news-img{
+                //             margin-left: 20px;
+                //         }
+                //     }
+                // }
+                // &:nth-child(3){
+                //     .news-content{
+                //         .news-img{
+                //             margin-left: 20px;
+                //         }
+                //     }
+                // }
+                // &:nth-child(4){
+                //     .news-content{
+                //         .news-img{
+                //             margin-right: 20px;
+                //         }
+                //     }
+                // }
+                .news-content{
+                    @extend %flex;
+                    gap: 20px;
+                    border: 3px solid $green-transparent;
+                    margin-bottom: 30px;
+                    @extend %transition;
+                    &:hover{
+                        .news-img{
+                            img{
+                                transform: scale(1.2);
+                            }
+                        }
+                    }
+                    .news-img{
+                        overflow: hidden;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .bless-news{
+                        display: flex;
+                        flex-direction: column;
+                        margin-left: 30px;
+                        .blessing-time{
+                            @extend %flex;
+                            justify-content: space-between;
+                            time{
+                                color: $text-white-hover;
+                                display: block;
+                                text-transform: uppercase;
+                                font-size: 18px;
+                                font-weight: 600;
+                            }
+                            ul{
+                                li{
+                                    color: $dot-color;
+                                    font-size: 18px;
+                                    margin: 0px 30px;
+                                    &:nth-child(1){
+                                        // margin-right: 20px;
+                                    }
+                                }
+                            }
+                        }
+                        h1{
+                            line-height: 28px;
+                            a{
+                                color: $hover-color;
+                                font-size: 30px;
+                                font-weight: 800;
+                                @extend %transition;
+                                &:hover{
+                                    color: $text-white-hover;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// latestNews end

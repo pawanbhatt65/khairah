@@ -1,0 +1,51 @@
+// contact us start
+.contact{
+    padding: 90px 0px;
+    background-image: url(../images/cta.jpg);
+    color: $text-white;
+    @include repeat;
+    .container{
+        .row{
+            .col-12.col-lg-5{
+                @include flex;
+                .contact-left{
+                    h1{
+                        text-align: center;
+                        font-size: 49px;
+                        padding-right: 30px;
+                        font-weight: 600;
+                    }
+                }
+            }
+            .col-12.col-lg-6.offset-lg-1{
+                display: grid;
+                align-items: center;
+                .contact-right{
+                    @extend %flex;
+                    justify-content: space-between;
+                    .cta-number{
+                        p{
+                            text-align: center;
+                            font-size: 40px;
+                            font-weight: 700;
+                            &:nth-child(2){
+                                color: $dot-color;
+                            }
+                        }
+                    }
+                    .cta-email{
+                        p{
+                            text-align: center;
+                            font-size: 40px;
+                            font-weight: 700;
+                            &:nth-child(2){
+                                color: $text-white-hover;
+                            } 
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// contact us end

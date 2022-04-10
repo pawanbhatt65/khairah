@@ -1,0 +1,11 @@
+%transition{
+    transition-property: all;
+    transition-delay: 0ms;
+    transition-duration: 0.7s;
+    transition-timing-function: ease-in-out;
+}
+%flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
