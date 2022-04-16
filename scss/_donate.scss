@@ -1,0 +1,188 @@
+// donate.html
+// donate start
+    .donation-fund{
+        padding: 80px 0px;
+        .container{
+            .row{
+                .col-xl-8.offset-xl-2{
+                    .fund-raised{
+                        .make-donation{
+                            h5{
+                                text-align: center;
+                                span{
+                                    display: inline-block;
+                                    background-image: url(../images/comment2.png);
+                                    @include repeat;
+                                    padding: 10px 36px 15px;
+                                    font-weight: 600;
+                                }
+                            }
+                            h1{
+                                text-align: center;
+                                font-weight: 600;
+                                margin: 25px 0px 60px;
+                                font-size: 45px;
+                            }
+                            .donation-amount{
+                                box-shadow: 0px 0px 8px -2px $border-white;
+                                padding: 20px 30px;
+                                h4{
+                                    font-weight: 600;
+                                    margin-top: 10px;
+                                }
+                                .donate-acc{
+                                    padding: 10px 20px;
+                                    margin: 18px 0px 20px;
+                                    font-size: 18px;
+                                    border: 1px solid $border-white;
+                                    @include bd-radius(0px);
+                                    &:focus{
+                                        border-color: $text-white-hover;
+                                        box-shadow: 0px 0px 0px 0px;
+                                    }
+                                }
+                            }
+                            .donate-detail{
+                                box-shadow: 0px 0px 8px -2px $border-white;
+                                padding: 40px 30px;
+                                margin: 65px 0px;
+                                .row{
+                                    .col-12{
+                                        h4{
+                                            font-weight: 600;
+                                            padding-bottom: 15px;
+                                        }
+                                        .first-name{
+                                            margin: 20px 0px;
+                                            padding: 10px 18px;
+                                            font-size: 18px;
+                                            border-color: $border-white;
+                                            @include bd-radius(0px);
+                                            &:focus{
+                                                border-color: $text-white-hover;
+                                                box-shadow: 0px 0px 0px 0px;
+                                            }
+                                        }
+                                    }
+                                    .col-12.col-md-6{
+                                        .first-name{
+                                            margin: 12px 0px;
+                                            padding: 10px 18px;
+                                            font-size: 18px;
+                                            border-color: $border-white;
+                                            @include bd-radius(0px);
+                                            &:focus{
+                                                border-color: $text-white-hover;
+                                                box-shadow: 0px 0px 0px 0px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .donation-method{
+                            box-shadow: 0px 0px 8px -2px $border-white;
+                            padding: 20px 30px;
+                            h2{
+                                font-weight: 600;
+                                font-size: 22px;
+                                padding: 10px 0px;
+                            }
+                            .payment-method{
+                                margin: 25px 0px 33px;
+                                li{
+                                    display: inline-block;
+                                    font-size: 18px;
+                                    font-weight: 600;
+                                    &:not(:last-child){
+                                        margin-right: 20px;
+                                    }
+                                }
+                            }
+                            .cards-info{
+                                .cards{
+                                    li{
+                                        display: inline-block;
+                                        overflow: hidden;
+                                        width: 100px;
+                                        height: 70px;
+                                        line-height: 70px;
+                                        background-color: transparent;
+                                        text-align: center;
+                                        margin-right: 10px;
+                                        cursor: pointer;
+                                        &:nth-child(1){
+                                            border: 1px solid $bg-blue;
+                                        }
+                                        &:nth-child(2){
+                                            border: 1px solid $red-color;
+                                        }
+                                        &:nth-child(3){
+                                            border: 1px solid $purpal;
+                                        }
+                                        &:nth-child(4){
+                                            border: 1px solid $sky-blue;
+                                        }
+                                    }
+                                }
+                                .row{
+                                    padding: 10px 0px;
+                                    margin-top: 10px;
+                                    .col-12.col-xl-6{
+                                        .card-details{
+                                            margin: 10px 0px;
+                                            label{
+                                                font-weight: 600;
+                                                margin-bottom: 5px;
+                                                font-size: 18px
+                                            }
+                                            .card-info{
+                                                @include bd-radius(5px);
+                                                padding: 10px 20px;
+                                                font-size: 18px;
+                                                border-color: $border-white;
+                                                border-width: 2px;
+                                                @extend %transition;
+                                                &:focus{
+                                                    box-shadow: 0px 0px 0px 0px;
+                                                    border-color: $hover-color;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .card-info.active{
+                                display: block;
+                            }
+                            .card-info.active-hide{
+                                display: none;
+                            }
+                        }
+                        span{
+                            text-align: center;
+                            display: block;
+                            margin-top: 30px;
+                            button{
+                                @include bd-radius(30px);
+                                background: $background-left-gradient;
+                                color: $text-white;
+                                @extend %transition;
+                                transition-duration: 0.4s;
+                                display: inline-block;
+                                cursor: pointer;
+                                border: none;
+                                padding: 10px 40px;
+                                font-weight: 600;
+                                font-size: 18px;
+                                &:hover{
+                                    background: $background-right-gradient;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+// donate end

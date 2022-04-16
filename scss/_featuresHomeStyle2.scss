@@ -1,0 +1,131 @@
+// featuresHomeStyle2 start
+.featuresHomeStyle2{
+    padding: 100px 0px;
+    background-color: $bg-blue;
+    color: $text-white;
+    .container{
+        .row{
+            .col-12{
+                .features-box{
+                    @include grid;
+                    grid-template-columns: 25% 25% 25% 25%;
+                    grid-gap: 20px;
+                    align-items: inherit;
+                    .features-treatment{
+                        text-align: center;
+                        color: $text-white;
+                        padding: 40px 20px;
+                        margin-bottom: 20px;
+                        position: relative;
+                        overflow: hidden;
+                        &::before{
+                            content: '';
+                            position: absolute;
+                            top: -9px;
+                            right: -77px;
+                            width: 200px;
+                            height: 70px;
+                            border: 3px solid $text-black;
+                            transform: rotate(45deg) translate(70px, -70px);
+                            @extend %transition;
+                        }
+                        &:nth-child(1){
+                            background-color: $text-white-hover;
+                            &:hover{
+                                &::before{
+                                    transform: rotate(45deg) translate(0px, 0px);
+                                }
+                            }
+                            &::before{
+                                background: $background-right-gradient;
+                            }
+                            div{
+                                &::before{
+                                    border: 5px solid $border-white;
+                                }
+                            }
+                        }
+                        &:nth-child(2){
+                            background-color: $dot-color;
+                            &:hover{
+                                &::before{
+                                    transform: rotate(45deg) translate(0px, 0px);
+                                }
+                            }
+                            &::before{
+                                background: $background-left-gradient;
+                            }
+                            div{
+                                &::before{
+                                    border: 5px solid $border-white;
+                                }
+                            }
+                        }
+                        &:nth-child(3){
+                            background-color: $text-white-hover;
+                            &:hover{
+                                &::before{
+                                    transform: rotate(45deg) translate(0px, 0px);
+                                }
+                            }
+                            &::before{
+                                background: $background-right-gradient;
+                            }
+                            div{
+                                &::before{
+                                    border: 5px solid $border-white;
+                                }
+                            }
+                        }
+                        &:nth-child(4){
+                            background-color: $dot-color;
+                            &::before{
+                                background: $background-left-gradient;
+                                transform: rotate(45deg) translate(0px, 0px);
+                            }
+                            div{
+                                &::before{
+                                    border: 5px solid $border-white;
+                                }
+                            }
+                        }
+                        div{
+                            display: inline-block;
+                            margin: auto;
+                            position: relative;
+                            width: 120px;
+                            height: 120px;
+                            line-height: 120px;
+                            text-align: center;
+                            z-index: 1;
+                            &::before{
+                                content: '';
+                                position: absolute;
+                                top: 10px;
+                                left: 0px;
+                                height: 100%;
+                                width: 100%;
+                                z-index: -1;
+                                @include bd-radius(100%);
+                                background-color: $text-white;
+                                @include repeat;
+                            }
+                            img{
+                                display: inline-block;
+                            }
+                        }
+                        h2{
+                            margin-top: 20px;
+                            a{
+                                text-transform: capitalize;
+                                font-weight: 700;
+                                color: $text-white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// featuresHomeStyle2 end

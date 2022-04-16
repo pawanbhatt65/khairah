@@ -5,6 +5,17 @@
     });
 // preloader
 
+
+
+document.querySelector(".navbarItems a").addEventListener("click",function(){
+    if(true){
+        document.querySelector(".navbarItems a").classList.add("active");
+    } else{
+        document.querySelector(".navbarItems a").classList.remove("active");
+    }
+});
+
+
 // cart js start
 function shoppingCart(){
     document.querySelector("#cartInformation").classList.toggle("cart-active");
@@ -17,21 +28,20 @@ function searchHere(){
 }
 // search js end
 $(document).ready(function(){
-    $(".navbarHome").hover(function(){
-        $(this).toggleClass("active");
-    });
+    // hamburger button start
     $(".btn-collapse").click(function(){
         $("#btnCollapseNavbar").show("slow");
     });
     $("#collapsable").click(function(){
         $("#btnCollapseNavbar").hide("slow");
     });
+    // hamburger button end
     // wait section slider start
     $(".dots li:nth-child(1)").click(function(){
         $(".wait .slider:nth-child(1)").css({
             "display": "block"
         });
-        $(this).addClass("dot dot-active");
+        $(this).addClass("dot-active");
         $(".wait .slider:nth-child(2)").css({
             "display": "none"
         });
@@ -46,7 +56,7 @@ $(document).ready(function(){
         $(".wait .slider:nth-child(2)").css({
             "display": "block"
         });
-        $(this).addClass("dot dot-active");
+        $(this).addClass("dot-active");
         $(".wait .slider:nth-child(1)").css({
             "display": "none"
         });
@@ -61,7 +71,7 @@ $(document).ready(function(){
         $(".wait .slider:nth-child(3)").css({
             "display": "block"
         });
-        $(this).addClass("dot dot-active");
+        $(this).addClass("dot-active");
         $(".wait .slider:nth-child(2)").css({
             "display": "none"
         });
@@ -101,3 +111,29 @@ $(document).ready(function(){
 
     // scrollTop end
 });
+
+// about.html
+// navbar scroll start 
+let scrollAbout = 900;
+window.onscroll = function(){
+    if(window.scrollY > scrollAbout || window.pageYoffset > scrollAbout){
+        document.querySelector(".navbar-mainAbout").classList.add("scrollPosition");
+    } else{
+        document.querySelector(".navbar-mainAbout").classList.remove("scrollPosition");
+    }
+}
+// navbar scroll end
+
+// donate.html
+// donation start
+function onlineDonation(){
+    document.querySelector(".cards-info").classList.add("active");
+    document.querySelector(".card-info").classList.remove("active-hide");
+}
+document.querySelector("#cardDonation").addEventListener("click", onlineDonation);
+function cashDonation(){
+    document.querySelector(".cards-info").classList.remove("active");
+    document.querySelector(".cards-info").classList.add("active-hide");
+}
+document.querySelector("#caseDonation").addEventListener("click", cashDonation);
+// donation end

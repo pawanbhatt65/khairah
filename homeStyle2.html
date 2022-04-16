@@ -17,39 +17,8 @@
     <!-- preloader -->
     <div id="preLoader"></div>
     <!-- preloader -->
-    <!-- header section start -->
-    <header class="header">
-        <!-- header topbar start  -->
-        <div class="topbar">
-            <div class="container-fluid container-xxl">
-                <div class="row">
-                    <div class="col-12 col-md-6">
-                        <div class="head-location">
-                            <h3><i class="fas fa-map-marker-alt"></i> 27 Division St, New York, NY 10002</h3>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <div class="head-media">
-                            <ul class="list-inline">
-                                <li class="list-inline-item"><a href="javascript:void(0)"><i
-                                            class="fab fa-facebook-f"></i></a></li>
-                                <li class="list-inline-item"><a href="javascript:void(0)"><i
-                                            class="fab fa-twitter"></i></a></li>
-                                <li class="list-inline-item"><a href="javascript:void(0)"><i
-                                            class="fab fa-vimeo-v"></i></a></li>
-                                <li class="list-inline-item"><a href="javascript:void(0)"><i
-                                            class="fab fa-linkedin-in"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- header topbar end  -->
-    </header>
-    <!-- header section end -->
-    <!-- navbar start  -->
-    <nav class="navbar-main">
+    <!-- navbarAbout start  -->
+    <nav class="navbar-mainAbout">
         <div class="container-fluid container-xxl">
             <a href="javascript:void(0)" class="logo"><img src="images/logo.png" alt="logo" class="img-fluid">KHAI <span>RAH</span></a>
             <div class="nav-list-item">
@@ -202,7 +171,7 @@
             </div>
         </div>
     </nav>
-    <!-- navbar end  -->
+    <!-- navbarAbout end  -->
     <!-- wait start  -->
     <section class="wait">
         <div class="slider">
@@ -263,14 +232,15 @@
         </ul>
     </section>
     <!-- wait end  -->
-    <!-- area start  -->
-    <section class="area">
+    <!-- areaHomeStyle2 start  -->
+    <section class="areaHomeStyle2">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-5">
-                   <div class="about-circle">
-                        <div class="area-child">
-                            <img src="images/img-1.jpg" alt="slave children" class="img-fluid">
+                   <div class="video-area">
+                       <img src="images/15.jpg" alt="video" class="img-fluid">
+                        <div class="video-play-area">
+                            <a href="https://youtu.be/p8iojxGUfdE"><i class="fas fa-play"></i></a>
                         </div>
                    </div>
                 </div>
@@ -288,20 +258,12 @@
             </div>
         </div>
     </section>
-    <!-- area end -->
-    <!-- features area start -->
-    <section class="features-area">
+    <!-- areaHomeStyle2 end -->
+    <!-- featuresHomeStyle2 start -->
+    <section class="featuresHomeStyle2">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-lg-5">
-                    <div class="features-journey">
-                        <h4 class="features">features</h4>
-                        <h1>The great journey to end poverty for good begins with a child.</h1>
-                        <p>It is a long established fact that reader distracted by the the readable content off page looking at its layout point that it has.</p>
-                        <button class="btn-donate">donate now</button>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-7">
+                <div class="col-12">
                     <div class="features-box">
                         <div class="features-treatment">
                             <div>
@@ -317,22 +279,22 @@
                         </div>
                         <div class="features-treatment">
                             <div>
-                                <img src="images/img-3.png" alt="Enviorment recyling" class="img-fluid">
-                            </div>
-                            <h2><a href="javascript:void(0)">enviorment recyle</a></h2>
-                        </div>
-                        <div class="features-treatment">
-                            <div>
                                 <img src="images/img-4.png" alt="Food and Home" class="img-fluid">
                             </div>
                             <h2><a href="javascript:void(0)">Food & Build Home</a></h2>
+                        </div>
+                        <div class="features-treatment">
+                            <div>
+                                <img src="images/img-3.png" alt="Enviorment recyling" class="img-fluid">
+                            </div>
+                            <h2><a href="javascript:void(0)">enviorment recyle</a></h2>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- features area end -->
+    <!-- featuresHomeStyle2 end -->
     <!-- causes start  -->
     <section class="causes">
         <div class="container">
@@ -883,18 +845,6 @@
     <script src="js/jquery/jquery-3.6.0.min.js"></script>
     <script src="js/bootstrap.bundle.js"></script>
     <script src="js/style.js"></script>
-    <script>
-        // scroll.window start
-        let scrollHeight = 900;
-        window.onscroll = function(){
-            if(window.scrollY >= scrollHeight || window.pageYoffset >= scrollHeight){
-                document.querySelector(".navbar-main").classList.add("scrollPosition");
-            } else{
-                document.querySelector(".navbar-main").classList.remove("scrollPosition");
-            }
-        }
-        // scroll window end
-    </script>
 </body>
 
 </html>

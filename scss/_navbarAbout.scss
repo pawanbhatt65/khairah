@@ -1,71 +1,14 @@
-// header section start 
-header{
-    background-color: $bg-blue;
-    // topbar start 
-   .topbar{
-       border-bottom: 1px solid $border-color;
-        .container-fluid.container-xxl{
-            .row{
-                padding: 15px 0px;
-            .col-12.col-md-6{
-                &:nth-child(1){
-                        @extend %flex;
-                        justify-content: flex-start;
-                        .head-location{
-                            @extend %flex;
-                            justify-content: flex-start;
-                            h3{
-                                color: $text-white;
-                                font-size: 16px;
-                                font-weight: 400;
-                            }
-                        }
-                }
-                &:nth-child(2){
-                        @extend %flex;
-                        justify-content: flex-end;
-                        .head-media{
-                            @extend %flex;
-                            justify-content: flex-end;
-                            ul{
-                                li{
-                                    &:not(:last-child){
-                                        margin: 0px 10px;
-                                        padding: 0px 10px;
-                                    }
-                                    &:last-child{
-                                        margin-left: 10px;
-                                        padding-left: 10px;
-                                    }
-                                    a{
-                                        color: $text-white;
-                                        font-size: 16px;
-                                        &:hover{
-                                            color: $text-white-hover;
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                }
-            }
-            }
-        }
-   }
-    // tobar end 
-}
-// header section end 
-// navbar start
-.navbar-main{
+// navbarAbout start
+.navbar-mainAbout{
     z-index: 12;
-    background-color: $bg-blue;
+    background-color: $text-white;
     .container-fluid.container-xxl{
         @extend %flex;
         justify-content: flex-start;
         padding: 15px 0px;
         .logo{
             display: block;
-            color: $text-white;
+            color: $text-light-black;
             font-size: 22px;
             font-weight: bolder;
             img{
@@ -119,7 +62,7 @@ header{
                                 }
                             }
                             a{
-                                color: $text-white;
+                                color: $text-light-black;
                                 text-transform: capitalize;
                                 padding: 30px 20px;
                                 position: relative;
@@ -231,7 +174,7 @@ header{
                             }
                         }
                         a{
-                            color: $text-white;
+                            color: $text-light-black;
                             text-transform: capitalize;
                             padding: 30px 20px;
                             position: relative;
@@ -271,7 +214,7 @@ header{
                         position: relative;
                         a{
                             position: relative;
-                            color: $text-white;
+                            color: $text-light-black;
                             font-size: 22px;
                             span{
                                 position: absolute;
@@ -290,13 +233,13 @@ header{
                         }
                         .shopping-cart{
                             padding: 20px 0px;
-                            display: grid;
                             background-color: $text-white;
                             margin-top: 58px;
                             display: none;
                             position: absolute;
                             top: 0px;
                             right: 0px;
+                            z-index: 2;
                             width: 300px;
                             flex-direction: column;
                             justify-content: space-between;
@@ -389,7 +332,7 @@ header{
 
                             }
                         }
-                        .cart-active{
+                        .shopping-cart.cart-active{
                             display: flex;
                         }
                     }
@@ -397,13 +340,14 @@ header{
                         position: relative;
                         a{
                             font-size: 22px;
-                            color: $text-white;
+                            color: $text-light-black;
                         }
                         .search-any{
                             position: absolute;
                             right: 0px;
                             top: 55px;
                             display: none;
+                            z-index: 2;
                             input{
                                 font-size: 18px;
                                 padding: 10px 33px 10px 15px;
@@ -416,7 +360,7 @@ header{
                                 right: 8px;
                             }
                         }
-                        .search-active{
+                        .search-any.search-active{
                             display: block;
                         }
                     }
@@ -436,10 +380,10 @@ header{
         }
     }
 } 
-.navbar-main.scrollPosition{
+.navbar-mainAbout.scrollPosition{
     position: sticky;
     left: 0px;
     right: 0px;
     top: 0px;
 }
-// navbar end  
+// navbarAbout end  

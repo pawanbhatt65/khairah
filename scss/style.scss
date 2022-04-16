@@ -41,12 +41,16 @@ body{
 @import "latestNews";
 @import "partners";
 @import "footer";
-.cart-active{
-    display: flex;
-}
-.search-active{
-    display: block;
-}
+// homeStyle2.html
+@import "navbarAbout";
+@import "areaHomeStyle2";
+@import "featuresHomeStyle2";
+@import "aboutUs";
+@import "counter";
+// singleCauses.html
+@import "singleCauses";
+// donate.html
+@import "donate";
 // preloader
 #preLoader{
     width: 100%;

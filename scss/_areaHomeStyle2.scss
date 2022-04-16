@@ -1,0 +1,129 @@
+// areaHomeStyle2 start
+.areaHomeStyle2{
+    padding: 100px 0px;
+    .container{
+        .row{
+            .col-12.col-lg-5{
+                .video-area{
+                    position: relative;
+                    img{
+                        width: 100%;
+                    }
+                    .video-play-area{
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        margin: auto;
+                        background-color: transparent;
+                        transform: translate(-50%, -50%);
+                        a{
+                            width: 100px;
+                            height: 100px;
+                            line-height: 100px;
+                            text-align: center;
+                            background-color: $video-bg-color;
+                            @include bd-radius(100%);
+                            @extend %transition;
+                            display: inline-block;
+                            font-size: 60px;
+                            .fa-play{
+                                color: transparent;
+                                &::before{
+                                    background: $background-left-gradient;
+                                    -webkit-background-clip: text;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .col-12.col-lg-6.offset-lg-1{
+                @extend %flex;
+                .area-org{
+                    .about-us{
+                        position: relative;
+                        text-transform: uppercase;
+                        font-weight: 600;
+                        font-size: 26px;
+                        padding: 13px 56px 21px;
+                        display: inline-block;
+                        &::before{
+                            content: "";
+                            position: absolute;
+                            top: 0px;
+                            left: 0px;
+                            height: 100%;
+                            width: 188px;
+                            background-image: url(../images/comment2.png);
+                            @include repeat;
+                            background-size: contain;
+                        }
+                    }
+                    h1{
+                        font-size: 62px;
+                        font-weight: 800;
+                        margin: 20px 0px;
+                        span{
+                            &:nth-child(1){
+                                color: $dot-color;
+                            }
+                            &:nth-child(2){
+                                color: $text-white-hover;
+                            }
+                        }
+                    }
+                    p{
+                        font-size: 18px;
+                        padding-right: 96px;
+                        color: $light-black;
+                        line-height: 27px;
+                        font-family: khairah_r;
+                    }
+                    ul{
+                        margin-top: 20px;
+                        li{
+                            position: relative;
+                            padding-left: 120px;
+                            z-index: 1;
+                            a{
+                                color: $text-light-black;
+                                font-size: 35px;
+                                font-weight: 700;
+                                line-height: 44px;
+                                &:hover{
+                                    color: $text-white-hover;
+                                }
+                            }
+                            &::before{
+                                content: '';
+                                position: absolute;
+                                top: 0px;
+                                left: 0px;
+                                @include repeat;
+                                background-size: inherit;
+                                height: 100px;
+                                width: 100px;
+                                border: none;
+                                border-radius: 100%;
+                                z-index: -1;
+                            }
+                            &:nth-child(1){
+                                &::before{
+                                    background-color: $bg-first;
+                                    background-image: url(../images/1.png);
+                                }
+                            }
+                            &:nth-child(2){
+                                &::before{
+                                    background-color: $bg-second;
+                                    background-image: url(../images/2.png);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// areaHomeStyle2 end
