@@ -37,49 +37,49 @@ $(document).ready(function(){
     });
     // hamburger button end
     // wait section slider start
-    $(".dots li:nth-child(1)").click(function(){
-        $(".wait .slider:nth-child(1)").css({
+    $(".dot:nth-child(1)").click(function(){
+        $(".slider:nth-child(1)").css({
             "display": "block"
         });
         $(this).addClass("dot-active");
-        $(".wait .slider:nth-child(2)").css({
+        $(".slider:nth-child(2)").css({
             "display": "none"
         });
-        $(".dots li:nth-child(2)").removeClass("dot-active");
-        $(".wait .slider:nth-child(3)").css({
+        $(".dot:nth-child(2)").removeClass("dot-active");
+        $(".slider:nth-child(3)").css({
             "display": "none"
         });
-        $(".dots li:nth-child(3)").removeClass("dot-active");
+        $(".dot:nth-child(3)").removeClass("dot-active");
     });
 
-    $(".dots li:nth-child(2)").click(function(){
-        $(".wait .slider:nth-child(2)").css({
+    $(".dot:nth-child(2)").click(function(){
+        $(".slider:nth-child(2)").css({
             "display": "block"
         });
         $(this).addClass("dot-active");
-        $(".wait .slider:nth-child(1)").css({
+        $(".slider:nth-child(1)").css({
             "display": "none"
         });
-        $(".dots li:nth-child(1)").removeClass("dot-active");
-        $(".wait .slider:nth-child(3)").css({
+        $(".dot:nth-child(1)").removeClass("dot-active");
+        $(".slider:nth-child(3)").css({
             "display": "none"
         });
-        $(".dots li:nth-child(3)").removeClass("dot-active");
+        $(".dot:nth-child(3)").removeClass("dot-active");
     });
 
-    $(".dots li:nth-child(3)").click(function(){
-        $(".wait .slider:nth-child(3)").css({
+    $(".dot:nth-child(3)").click(function(){
+        $(".slider:nth-child(3)").css({
             "display": "block"
         });
         $(this).addClass("dot-active");
-        $(".wait .slider:nth-child(2)").css({
+        $(".slider:nth-child(2)").css({
             "display": "none"
         });
-        $(".dots li:nth-child(2)").removeClass("dot-active");
-        $(".wait .slider:nth-child(1)").css({
+        $(".dot:nth-child(2)").removeClass("dot-active");
+        $(".slider:nth-child(1)").css({
             "display": "none"
         });
-        $(".dots li:nth-child(1)").removeClass("dot-active");
+        $(".dot:nth-child(1)").removeClass("dot-active");
     });
     // wait section slider end 
     var slide = document.querySelectorAll(".testimonial-slider");
@@ -126,14 +126,30 @@ window.onscroll = function(){
 
 // donate.html
 // donation start
-function onlineDonation(){
-    document.querySelector(".cards-info").classList.add("active");
-    document.querySelector(".card-info").classList.remove("active-hide");
-}
-document.querySelector("#cardDonation").addEventListener("click", onlineDonation);
-function cashDonation(){
-    document.querySelector(".cards-info").classList.remove("active");
-    document.querySelector(".cards-info").classList.add("active-hide");
-}
-document.querySelector("#caseDonation").addEventListener("click", cashDonation);
+$(document).ready(function(){
+    $(".cards li:nth-child(1)").click(function(){
+        $(this).css("background-color", "#fcebbd");
+        $(".cards li:nth-child(2)").css("background-color", "unset");
+        $(".cards li:nth-child(3)").css("background-color", "unset");
+        $(".cards li:nth-child(4)").css("background-color", "unset");
+    });
+    $(".cards li:nth-child(2)").click(function(){
+        $(this).css("background-color", "#fcebbd");
+        $(".cards li:nth-child(1)").css("background-color", "unset");
+        $(".cards li:nth-child(3)").css("background-color", "unset");
+        $(".cards li:nth-child(4)").css("background-color", "unset");
+    });
+    $(".cards li:nth-child(3)").click(function(){
+        $(this).css("background-color", "#fcebbd");
+        $(".cards li:nth-child(2)").css("background-color", "unset");
+        $(".cards li:nth-child(1)").css("background-color", "unset");
+        $(".cards li:nth-child(4)").css("background-color", "unset");
+    });
+    $(".cards li:nth-child(4)").click(function(){
+        $(this).css("background-color", "#fcebbd");
+        $(".cards li:nth-child(2)").css("background-color", "unset");
+        $(".cards li:nth-child(3)").css("background-color", "unset");
+        $(".cards li:nth-child(1)").css("background-color", "unset");
+    });
+});
 // donation end

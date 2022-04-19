@@ -512,44 +512,44 @@
     <script src="js/style.js"></script>
     <script>
         // counting start
-    let donateCount = 0;
-    let donateCountingNumber = setInterval("donateNumber()",1);
-    console.log(donateCountingNumber)
-    function donateNumber(){
-        donateCount++;
-        document.querySelector(".donationCounter").innerHTML = donateCount;
-        if(donateCount == 6200){
-            clearInterval(donateCountingNumber);
+        let donateCount = 0;
+        let donateCountingNumber = setInterval("donateNumber()",1);
+        console.log(donateCountingNumber)
+        function donateNumber(){
+            donateCount++;
+            document.querySelector(".donationCounter").innerHTML = donateCount;
+            if(donateCount == 6200){
+                clearInterval(donateCountingNumber);
+            }
         }
-    }
-    let fundCount = 0;
-    let fundCountingNumber = setInterval("fundNumber()", 100);
-    function fundNumber(){
-        fundCount++;
-        document.querySelector(".fundCounter").innerHTML = fundCount;
-        if(fundCount == 80){
-            clearInterval(fundCountingNumber);
+        let fundCount = 0;
+        let fundCountingNumber = setInterval("fundNumber()", 100);
+        function fundNumber(){
+            fundCount++;
+            document.querySelector(".fundCounter").innerHTML = fundCount;
+            if(fundCount == 80){
+                clearInterval(fundCountingNumber);
+            }
         }
-    }
-    let volunteerCount = 0;
-    let volunteerCountingNumber = setInterval("volunteerNumber()", 98);
-    function volunteerNumber(){
-        volunteerCount++;
-        document.querySelector(".volunteerCounter").innerHTML = volunteerCount;
-        if(volunteerCount == 245){
-            clearInterval(volunteerCountingNumber);
+        let volunteerCount = 0;
+        let volunteerCountingNumber = setInterval("volunteerNumber()", 98);
+        function volunteerNumber(){
+            volunteerCount++;
+            document.querySelector(".volunteerCounter").innerHTML = volunteerCount;
+            if(volunteerCount == 245){
+                clearInterval(volunteerCountingNumber);
+            }
         }
-    }
-    let projectCount = 0;
-    let projectCountingNumber = setInterval("projectNumber()", 40);
-    function projectNumber(){
-        projectCount++;
-        document.querySelector(".projectCounter").innerHTML = projectCount;
-        if(projectCount == 605){
-            clearInterval(projectCountingNumber);
+        let projectCount = 0;
+        let projectCountingNumber = setInterval("projectNumber()", 40);
+        function projectNumber(){
+            projectCount++;
+            document.querySelector(".projectCounter").innerHTML = projectCount;
+            if(projectCount == 605){
+                clearInterval(projectCountingNumber);
+            }
         }
-    }
-// counting end
+        // counting end
     </script>
 </body>
 

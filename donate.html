@@ -351,6 +351,14 @@
     <script src="js/jquery/jquery-3.6.0.min.js"></script>
     <script src="js/bootstrap.bundle.js"></script>
     <script src="js/style.js"></script>
+    <script>
+        document.querySelector("#cardDonation").addEventListener("click", function(){
+            document.querySelector(".cards-info").style.display = "block";
+        });
+        document.querySelector("#caseDonation").addEventListener("click", function(){
+            document.querySelector(".cards-info").style.display = "none";
+        });
+    </script>
 </body>
 
 </html>
