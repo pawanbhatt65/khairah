@@ -34,7 +34,7 @@ body {
   font-family: khairah;
 }
 
-.navbar-main .container-fluid.container-xxl .nav-list-item .collapse-navbar ul li .navbarItems a, .navbar-main .container-fluid.container-xxl .nav-list-item .collapse-navbar ul li .navbarItems a:before, .navbar-main .container-fluid.container-xxl .nav-list-item .collapse-navbar ul li a, .navbar-main .container-fluid.container-xxl .nav-list-item .collapse-navbar ul li a:before, .navbar-main .container-fluid.container-xxl .nav-list-item .navbar-list li:nth-child(1) .shopping-cart .min-cart .min-cart-item2 .cart-item-details ul li:nth-child(1) a, .navbar-main .container-fluid.container-xxl .nav-list-item .navbar-list li:nth-child(1) .shopping-cart .cart-price ul li:nth-child(2) button, .wait .slider .container .col-12.col-md-8 .wait-food a, .area .container .row .col-12.col-lg-5 .about-circle .area-child img, .features-area .container .row .col-12.col-lg-5 .features-journey .btn-donate, .features-area .container .row .col-12.col-lg-7 .features-box .features-treatment::before, .causes .container .row .col-12.col-md-6.col-xl-4 .causes-type, .causes .container .row .col-12.col-md-6.col-xl-4 .causes-type::before, .causes .container .row .col-12.col-md-6.col-xl-4 .causes-type::after, .causes .container .row .col-12.col-md-6.col-xl-4 .causes-type .causes-img::before, .causes .container .row .col-12.col-md-6.col-xl-4 .causes-type .causes-img .position-relative .blank, .causes .container .row .col-12.col-md-6.col-xl-4 .causes-type .causes-img .position-relative .blank .btn-blank, .causes .container .row .col-12.col-md-6.col-xl-4 .causes-type .cause-discription::after, .causes .container .row .col-12.col-md-6.col-xl-4 .causes-type .cause-discription h3 a, .events .container .row .col-12 .event-items .event-item, .events .container .row .col-12 .event-items .event-item .event-text .event-date, .events .container .row .col-12 .event-items .event-item .event-text .event-suffer-child .event-location li:nth-child(1), .events .container .row .col-12 .event-items .event-item .event-text .event-suffer-child .event-location li:nth-child(2), .events .container .row .col-12 .event-items .event-item .event-text .event-suffer-child h3 a, .events .container .row .col-12 .event-items .event-item .event-text .event-suffer-child p, .volunteer .container .row .col-12.col-md-6.col-lg-3 .volunteer-person .volunteer-img img, .volunteer .container .row .col-12.col-md-6.col-lg-3 .volunteer-person .volunteer-content h2 a, .comment .container .row .col-12 .testimonial .testimonial-arrow, .latestNews .container .row .col-12.col-lg-6 .news-content, .latestNews .container .row .col-12.col-lg-6 .news-content .bless-news h1 a, .footer .footer-top .container .row .col-12.col-md-6.col-lg-3:nth-child(1) .footer-media ul li a, .footer .footer-top .container .row .col-12.col-md-6.col-lg-3:nth-child(2) .footer-links ul li a, .footer .footer-top .container .row .col-12.col-md-6.col-lg-3:nth-child(2) .footer-links ul li a::before, .navbar-mainAbout .container-fluid.container-xxl .nav-list-item .collapse-navbar ul li .navbarItems a, .navbar-mainAbout .container-fluid.container-xxl .nav-list-item .collapse-navbar ul li .navbarItems a:before, .navbar-mainAbout .container-fluid.container-xxl .nav-list-item .collapse-navbar ul li a, .navbar-mainAbout .container-fluid.container-xxl .nav-list-item .collapse-navbar ul li a:before, .navbar-mainAbout .container-fluid.container-xxl .nav-list-item .navbar-list li:nth-child(1) .shopping-cart .min-cart .min-cart-item2 .cart-item-details ul li:nth-child(1) a, .navbar-mainAbout .container-fluid.container-xxl .nav-list-item .navbar-list li:nth-child(1) .shopping-cart .cart-price ul li:nth-child(2) button, .areaHomeStyle2 .container .row .col-12.col-lg-5 .video-area .video-play-area a, .featuresHomeStyle2 .container .row .col-12 .features-box .features-treatment::before, .aboutEveryOne .container .col-12 .know-about p a, .singleCase .container .row .col-12.col-lg-8 .poor-child .description .btn-donateNow, .singleCase .container .row .col-12.col-lg-8 .poor-child .suffer-child-comment .commentsResponse .form-submit .row .col-12 .input-name, .singleCase .container .row .col-12.col-lg-8 .poor-child .suffer-child-comment .commentsResponse .form-submit .row .col-12 .btn-form-submit, .singleCase .container .row .col-12.col-lg-4 .search-issue .search-here .input-search .search-case, .singleCase .container .row .col-12.col-lg-4 .search-issue .recent-post .some-post .post-1 .post-description p a, .singleCase .container .row .col-12.col-lg-4 .search-issue .provide-help-links .provide-help li a, .donation-fund .container .row .col-xl-8.offset-xl-2 .fund-raised .donation-method .cards-info .row .col-12.col-xl-6 .card-details .card-info, .donation-fund .container .row .col-xl-8.offset-xl-2 .fund-raised span button, .btn-scrollTop {
+.navbar-main .container-fluid.container-xxl .nav-list-item .collapse-navbar ul li .navbarItems a, .navbar-main .container-fluid.container-xxl .nav-list-item .collapse-navbar ul li .navbarItems a:before, .navbar-main .container-fluid.container-xxl .nav-list-item .collapse-navbar ul li a, .navbar-main .container-fluid.container-xxl .nav-list-item .collapse-navbar ul li a:before, .navbar-main .container-fluid.container-xxl .nav-list-item .navbar-list li:nth-child(1) .shopping-cart .min-cart .min-cart-item2 .cart-item-details ul li:nth-child(1) a, .navbar-main .container-fluid.container-xxl .nav-list-item .navbar-list li:nth-child(1) .shopping-cart .cart-price ul li:nth-child(2) button, .wait .slider .container .col-12.col-md-8 .wait-food a, .area .container .row .col-12.col-lg-5 .about-circle .area-child img, .features-area .container .row .col-12.col-lg-5 .features-journey .btn-donate, .features-area .container .row .col-12.col-lg-7 .features-box .features-treatment::before, .causes .container .row .col-12.col-md-6.col-xl-4 .causes-type, .causes .container .row .col-12.col-md-6.col-xl-4 .causes-type::before, .causes .container .row .col-12.col-md-6.col-xl-4 .causes-type::after, .causes .container .row .col-12.col-md-6.col-xl-4 .causes-type .causes-img::before, .causes .container .row .col-12.col-md-6.col-xl-4 .causes-type .causes-img .position-relative .blank, .causes .container .row .col-12.col-md-6.col-xl-4 .causes-type .causes-img .position-relative .blank .btn-blank, .causes .container .row .col-12.col-md-6.col-xl-4 .causes-type .cause-discription::after, .causes .container .row .col-12.col-md-6.col-xl-4 .causes-type .cause-discription h3 a, .events .container .row .col-12 .event-items .event-item, .events .container .row .col-12 .event-items .event-item .event-text .event-date, .events .container .row .col-12 .event-items .event-item .event-text .event-suffer-child .event-location li:nth-child(1), .events .container .row .col-12 .event-items .event-item .event-text .event-suffer-child .event-location li:nth-child(2), .events .container .row .col-12 .event-items .event-item .event-text .event-suffer-child h3 a, .events .container .row .col-12 .event-items .event-item .event-text .event-suffer-child p, .volunteer .container .row .col-12.col-md-6.col-lg-3 .volunteer-person .volunteer-img img, .volunteer .container .row .col-12.col-md-6.col-lg-3 .volunteer-person .volunteer-content h2 a, .comment .container .row .col-12 .testimonial .testimonial-arrow, .latestNews .container .row .col-12.col-lg-6 .news-content, .latestNews .container .row .col-12.col-lg-6 .news-content .bless-news h1 a, .footer .footer-top .container .row .col-12.col-md-6.col-lg-3:nth-child(1) .footer-media ul li a, .footer .footer-top .container .row .col-12.col-md-6.col-lg-3:nth-child(2) .footer-links ul li a, .footer .footer-top .container .row .col-12.col-md-6.col-lg-3:nth-child(2) .footer-links ul li a::before, .navbar-mainAbout .container-fluid.container-xxl .nav-list-item .collapse-navbar ul li .navbarItems a, .navbar-mainAbout .container-fluid.container-xxl .nav-list-item .collapse-navbar ul li .navbarItems a:before, .navbar-mainAbout .container-fluid.container-xxl .nav-list-item .collapse-navbar ul li a, .navbar-mainAbout .container-fluid.container-xxl .nav-list-item .collapse-navbar ul li a:before, .navbar-mainAbout .container-fluid.container-xxl .nav-list-item .navbar-list li:nth-child(1) .shopping-cart .min-cart .min-cart-item2 .cart-item-details ul li:nth-child(1) a, .navbar-mainAbout .container-fluid.container-xxl .nav-list-item .navbar-list li:nth-child(1) .shopping-cart .cart-price ul li:nth-child(2) button, .areaHomeStyle2 .container .row .col-12.col-lg-5 .video-area .video-play-area a, .featuresHomeStyle2 .container .row .col-12 .features-box .features-treatment::before, .aboutEveryOne .container .col-12 .know-about p a, .singleCase .container .row .col-12.col-lg-8 .poor-child .description .btn-donateNow, .singleCase .container .row .col-12.col-lg-8 .poor-child .suffer-child-comment .commentsResponse .form-submit .row .col-12 .input-name, .singleCase .container .row .col-12.col-lg-8 .poor-child .suffer-child-comment .commentsResponse .form-submit .row .col-12 .btn-form-submit, .singleCase .container .row .col-12.col-lg-4 .search-issue .search-here .input-search .search-case, .singleCase .container .row .col-12.col-lg-4 .search-issue .recent-post .some-post .post-1 .post-description p a, .singleCase .container .row .col-12.col-lg-4 .search-issue .provide-help-links .provide-help li a, .donation-fund .container .row .col-xl-8.offset-xl-2 .fund-raised .donation-method .cards-info .row .col-12.col-xl-6 .card-details .card-info, .donation-fund .container .row .col-xl-8.offset-xl-2 .fund-raised span button, .contactUs .container .row .col-12.col-lg-6 .contact-form .row .col-12 .btn-submit-form, .btn-scrollTop {
   -webkit-transition-property: all;
   transition-property: all;
   -webkit-transition-delay: 0ms;
@@ -553,7 +553,7 @@ header .topbar .container-fluid.container-xxl .row .col-12.col-md-6:nth-child(2)
 .wait {
   position: relative;
   width: 100%;
-  z-index: -1;
+  z-index: 1;
 }
 
 .wait .slider {
@@ -3502,6 +3502,127 @@ header .topbar .container-fluid.container-xxl .row .col-12.col-md-6:nth-child(2)
   background: linear-gradient(left, #e9bf3d, #18b760);
 }
 
+/* contact us start */
+.contactUs {
+  padding: 70px 0px;
+}
+
+.contactUs .container .row .col-12.col-lg-6 {
+  margin-bottom: 50px;
+}
+
+.contactUs .container .row .col-12.col-lg-6 .contact-location .our-contact {
+  padding: 20px 0px;
+}
+
+.contactUs .container .row .col-12.col-lg-6 .contact-location .our-contact h3 {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.contactUs .container .row .col-12.col-lg-6 .contact-location .our-contact p {
+  font-size: 18px;
+  color: #787878;
+  font-family: khairah_r;
+  line-height: 25px;
+  margin-top: 10px;
+}
+
+.contactUs .container .row .col-12.col-lg-6 .contact-location .contact-phone {
+  margin: 30px 0px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contactUs .container .row .col-12.col-lg-6 .contact-location .contact-phone .device-img {
+  display: inline-block;
+  font-size: 26px;
+  color: #2db85d;
+  -webkit-box-shadow: 0px 0px 10px -4px #414141;
+          box-shadow: 0px 0px 10px -4px #414141;
+  border: none;
+  border-radius: 3px;
+  margin: 0px 14px 0px 0px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.contactUs .container .row .col-12.col-lg-6 .contact-location .contact-phone .contact-area {
+  display: inline-block;
+}
+
+.contactUs .container .row .col-12.col-lg-6 .contact-location .contact-phone .contact-area h4 {
+  font-weight: 600;
+}
+
+.contactUs .container .row .col-12.col-lg-6 .contact-location .contact-phone .contact-area p {
+  font-size: 18px;
+  color: #787878;
+  font-family: khairah_r;
+  line-height: 25px;
+}
+
+.contactUs .container .row .col-12.col-lg-6 .contact-form {
+  padding: 20px 0px;
+}
+
+.contactUs .container .row .col-12.col-lg-6 .contact-form .row .col-12 h3 {
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.contactUs .container .row .col-12.col-lg-6 .contact-form .row .col-12 .form-details {
+  border: 1px solid transparent;
+  border-radius: 0px;
+  font-size: 18px;
+  margin: 10px 0px;
+}
+
+.contactUs .container .row .col-12.col-lg-6 .contact-form .row .col-12 .form-details:focus {
+  border-color: #2db85d;
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
+}
+
+.contactUs .container .row .col-12.col-lg-6 .contact-form .row .col-12 .btn-submit-form {
+  text-transform: capitalize;
+  font-size: 18px;
+  background: -webkit-gradient(linear, left top, right top, from(#18b760), to(#e9bf3d));
+  background: linear-gradient(left, #18b760, #e9bf3d);
+  padding: 12px 34px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.contactUs .container .row .col-12.col-lg-6 .contact-form .row .col-12 .btn-submit-form:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#e9bf3d), to(#18b760));
+  background: linear-gradient(left, #e9bf3d, #18b760);
+}
+
+.contactUs .container .row .col-12.col-lg-6 .contact-form .row .col-12.col-sm-6 .form-details {
+  border: 1px solid transparent;
+  border-radius: 0px;
+  font-size: 18px;
+  margin: 10px 0px;
+}
+
+.contactUs .container .row .col-12.col-lg-6 .contact-form .row .col-12.col-sm-6 .form-details:focus {
+  border-color: #2db85d;
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
+}
+
+/* contact us end */
 #preLoader {
   width: 100%;
   height: 100vh;
@@ -4580,6 +4701,9 @@ header .topbar .container-fluid.container-xxl .row .col-12.col-md-6:nth-child(2)
     height: 60px;
     line-height: 60px;
     margin-right: 1px;
+  }
+  .contactUs {
+    padding: 40px 0px;
   }
 }
 
@@ -5683,6 +5807,9 @@ header .topbar .container-fluid.container-xxl .row .col-12.col-md-6:nth-child(2)
     height: 70px;
     line-height: 70px;
     margin-right: 1px;
+  }
+  .contactUs {
+    padding: 60px 0px;
   }
 }
 

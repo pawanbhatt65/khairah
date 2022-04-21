@@ -38,47 +38,35 @@ $(document).ready(function(){
     // hamburger button end
     // wait section slider start
     $(".dot:nth-child(1)").click(function(){
-        $(".slider:nth-child(1)").css({
-            "display": "block"
-        });
+        $(".slider:nth-child(1)").css("display", "block");
         $(this).addClass("dot-active");
-        $(".slider:nth-child(2)").css({
-            "display": "none"
-        });
+
+        $(".slider:nth-child(2)").css("display", "none");
         $(".dot:nth-child(2)").removeClass("dot-active");
-        $(".slider:nth-child(3)").css({
-            "display": "none"
-        });
+
+        $(".slider:nth-child(3)").css("display", "none");
         $(".dot:nth-child(3)").removeClass("dot-active");
     });
 
     $(".dot:nth-child(2)").click(function(){
-        $(".slider:nth-child(2)").css({
-            "display": "block"
-        });
+        $(".slider:nth-child(2)").css("display", "block");
         $(this).addClass("dot-active");
-        $(".slider:nth-child(1)").css({
-            "display": "none"
-        });
+
+        $(".slider:nth-child(1)").css("display", "none");
         $(".dot:nth-child(1)").removeClass("dot-active");
-        $(".slider:nth-child(3)").css({
-            "display": "none"
-        });
+        
+        $(".slider:nth-child(3)").css("display", "none");
         $(".dot:nth-child(3)").removeClass("dot-active");
     });
 
     $(".dot:nth-child(3)").click(function(){
-        $(".slider:nth-child(3)").css({
-            "display": "block"
-        });
+        $(".slider:nth-child(3)").css("display", "block");
         $(this).addClass("dot-active");
-        $(".slider:nth-child(2)").css({
-            "display": "none"
-        });
+
+        $(".slider:nth-child(2)").css("display", "none");
         $(".dot:nth-child(2)").removeClass("dot-active");
-        $(".slider:nth-child(1)").css({
-            "display": "none"
-        });
+
+        $(".slider:nth-child(1)").css("display", "none");
         $(".dot:nth-child(1)").removeClass("dot-active");
     });
     // wait section slider end 
