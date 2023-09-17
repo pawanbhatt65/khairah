@@ -1,0 +1,32 @@
+.partners {
+  padding: 90px 0px;
+  background-image: url(../../../images/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: local;
+  position: relative;
+  z-index: 1;
+}
+.partners::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left, #18b760, #e9bf3d);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: local;
+  opacity: 0.9;
+  z-index: -1;
+}
+.drag-slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,178 @@
+.events {
+  background-color: #eefaf5;
+  position: relative;
+  padding: 70px 0px;
+  z-index: 1;
+}
+.event-info {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.event-info h4 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 24px;
+  background-image: url(../../../images/comment2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: local;
+  display: inline-block;
+  padding: 20px 70px 30px;
+}
+.event-info h1 {
+  font-size: 44px;
+  font-weight: 700;
+  margin: 20px 0px 30px;
+}
+.event-info p {
+  font-family: khairah_r;
+  color: #787878;
+  font-size: 18px;
+  padding: 0px 30px;
+  line-height: 26px;
+}
+.event-items .event-item {
+  transition-property: all;
+  transition-delay: 0ms;
+  transition-duration: 0.7s;
+  transition-timing-function: ease-in-out;
+  background-color: #fff;
+  padding: 30px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+}
+.event-items .event-item .event-img {
+  margin-right: 25px;
+}
+.event-items .event-item .event-img img {
+  width: 100%;
+}
+.event-items .event-item .event-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.event-items .event-item .event-text .event-date {
+  transition-property: all;
+  transition-delay: 0ms;
+  transition-duration: 0.7s;
+  transition-timing-function: ease-in-out;
+  padding: 30px;
+  max-height: 100%;
+  height: 100%;
+  background-color: #2db85d;
+  color: #fff;
+  text-align: center;
+  margin-right: 30px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.event-items .event-item .event-text .event-date span {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 30px;
+}
+.event-items .event-item .event-text .event-date h4 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 30px;
+}
+.event-items .event-item .event-text .event-suffer-child {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.event-location {
+  padding-left: 0;
+  list-style: none;
+}
+.event-location li:nth-child(1) {
+  display: inline-block;
+  font-size: 20px;
+  transition-property: all;
+  transition-delay: 0ms;
+  transition-duration: 0.7s;
+  transition-timing-function: ease-in-out;
+  color: #2db85d;
+  margin-right: 20px;
+}
+.event-location li:nth-child(2) {
+  display: inline-block;
+  font-size: 20px;
+  transition-property: all;
+  transition-delay: 0ms;
+  transition-duration: 0.7s;
+  transition-timing-function: ease-in-out;
+  color: #ffc039;
+}
+.event-text .event-suffer-child h3 {
+  margin: 20px 0px 10px;
+}
+.event-item .event-text .event-suffer-child h3 a {
+  transition-property: all;
+  transition-delay: 0ms;
+  transition-duration: 0.7s;
+  transition-timing-function: ease-in-out;
+  font-size: 30px;
+  font-weight: 600;
+  color: #212122;
+}
+.event-item .event-text .event-suffer-child p {
+  transition-property: all;
+  transition-delay: 0ms;
+  transition-duration: 0.7s;
+  transition-timing-function: ease-in-out;
+  color: #787878;
+  font-family: khairah_r;
+  font-size: 18px;
+  line-height: 26px;
+  padding-right: 110px;
+}
+.event-items .event-item:hover .event-text .event-date {
+  background-color: #212122;
+}
+.event-items
+  .event-item:hover
+  .event-text
+  .event-suffer-child
+  .event-location
+  li:nth-child(1) {
+  color: #fff;
+}
+.event-items
+  .event-item:hover
+  .event-text
+  .event-suffer-child
+  .event-location
+  li:nth-child(2) {
+  color: #fff;
+}
+.event-items .event-item:hover .event-text .event-suffer-child h3 a {
+  color: #fff;
+}
+.event-items .event-item:hover {
+  background: linear-gradient(to left, #e9bf3d, #18b760);
+}
+.event-items .event-item .event-text .event-suffer-child h3 a:hover {
+  color: #ffc039;
+}
+.event-items .event-item:hover .event-text .event-suffer-child p {
+  color: #fff;
+}
+.events .shape-1 {
+  position: absolute;
+  top: 32px;
+  left: 70px;
+  z-index: -1;
+}
+.events .shape-2 {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  z-index: -1;
+}

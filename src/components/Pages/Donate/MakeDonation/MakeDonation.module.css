@@ -1,0 +1,152 @@
+.donation-fund {
+  padding: 80px 0px;
+}
+.make-donation h5 {
+  text-align: center;
+}
+.make-donation h5 span {
+  display: inline-block;
+  background-image: url(../../../../images/comment2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: local;
+  padding: 10px 36px 15px;
+  font-weight: 600;
+}
+.make-donation h1 {
+  text-align: center;
+  font-weight: 600;
+  margin: 25px 0px 60px;
+  font-size: 45px;
+}
+.make-donation .donation-amount {
+  box-shadow: 0px 0px 8px -2px rgb(191 158 158 / 62%);
+  padding: 20px 30px;
+}
+.donation-amount h4 {
+  font-weight: 600;
+  margin-top: 10px;
+}
+.donate-acc {
+  padding: 10px 20px;
+  margin: 18px 0px 20px;
+  font-size: 18px;
+  border: 1px solid rgba(191, 158, 158, 0.62);
+  border-radius: 0px;
+}
+.donate-acc:focus {
+  border-color: #2db85d;
+  box-shadow: 0px 0px 0px 0px;
+}
+.donate-detail {
+  box-shadow: 0px 0px 8px -2px rgb(191 158 158 / 62%);
+  padding: 40px 30px;
+  margin: 65px 0px;
+}
+.details > h4 {
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+.first-name {
+  margin: 12px 0px;
+  padding: 10px 18px;
+  font-size: 18px;
+  border-color: rgba(191, 158, 158, 0.62);
+  border-radius: 0px;
+}
+.first-name:focus {
+  border-color: #2db85d;
+  box-shadow: 0px 0px 0px 0px;
+}
+.donation-method {
+  box-shadow: 0px 0px 8px -2px rgb(191 158 158 / 62%);
+  padding: 20px 30px;
+}
+.donation-method h2 {
+  font-weight: 600;
+  font-size: 22px;
+  padding: 10px 0px;
+}
+.payment-method {
+  margin: 25px 0px 33px;
+}
+.payment-method li {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 600;
+}
+.payment-method li:not(:last-child) {
+  margin-right: 20px;
+}
+.cards li {
+  display: inline-block;
+  overflow: hidden;
+  width: 100px;
+  height: 70px;
+  line-height: 70px;
+  background-color: transparent;
+  text-align: center;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.cards li:nth-child(1) {
+  border: 1px solid #071738;
+}
+.cards li:nth-child(2) {
+  border: 1px solid #cc0000;
+}
+.cards li:nth-child(3) {
+  border: 1px solid #691a5f;
+}
+.cards li:nth-child(4) {
+  border: 1px solid #019cde;
+}
+.card-details {
+  margin: 10px 0px;
+}
+.card-details label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+.card-info {
+  transition-property: all;
+  transition-delay: 0ms;
+  transition-duration: 0.7s;
+  transition-timing-function: ease-in-out;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-color: rgba(191, 158, 158, 0.62);
+  border-width: 2px;
+}
+.card-info:focus {
+  box-shadow: 0px 0px 0px 0px;
+  border-color: rgba(6, 23, 56, 0.8);
+}
+.fund-raised span {
+  text-align: center;
+  display: block;
+  margin-top: 30px;
+}
+.fund-raised span button {
+  transition-property: all;
+  transition-delay: 0ms;
+  transition-duration: 0.7s;
+  transition-timing-function: ease-in-out;
+  border-radius: 30px;
+  background: linear-gradient(to left, #18b760, #e9bf3d);
+  color: #fff;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  padding: 10px 40px;
+  font-weight: 600;
+  font-size: 18px;
+}
+.fund-raised span button:hover {
+  background: linear-gradient(to left, #e9bf3d, #18b760);
+}

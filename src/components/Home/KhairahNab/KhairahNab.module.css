@@ -1,0 +1,207 @@
+.navbar-main {
+  z-index: 12;
+  background-color: #071738;
+}
+.navbar-main > .containerBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-start !important;
+  padding: 15px 0px;
+}
+.navbar-main > .containerBox .logo {
+  display: block;
+  color: #fff;
+  font-size: 22px;
+  font-weight: bolder;
+}
+.navbar-main > .containerBox .logo > img {
+  margin-right: 10px;
+}
+.navbar-main > .containerBox .logo > span {
+  color: #2db85d;
+}
+.nav-list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+}
+.btn-collapse {
+  display: none;
+  -webkit-box-ordinal-group: 5;
+  -ms-flex-order: 4;
+  order: 4;
+  color: #fff;
+  background: linear-gradient(to left, #18b760, #e9bf3d);
+  padding: 6px 15px;
+  font-size: 22px;
+  border: none;
+  border-radius: 6px;
+}
+#collapsable {
+  display: none;
+  position: absolute;
+  left: -21px;
+  top: 3px;
+  font-size: 26px;
+  color: #fff;
+  background: #2db85d;
+  width: 46px;
+  height: 46px;
+  line-height: 46px;
+  text-align: center;
+  border: none;
+  border-radius: 100%;
+}
+.navbarItems {
+  position: relative;
+}
+.navbarItems a {
+  transition-property: all;
+  transition-delay: 0ms;
+  transition-duration: 0.7s;
+  transition-timing-function: ease-in-out;
+  text-transform: capitalize;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.navbarItems a::before {
+  transition-property: all;
+  transition-delay: 0ms;
+  transition-duration: 0.7s;
+  transition-timing-function: ease-in-out;
+  content: "";
+  position: absolute;
+  top: 52px;
+  left: 0px;
+  height: 25px;
+  width: 100%;
+  background-image: url(../../../images/hover.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: local;
+  z-index: -1;
+  opacity: 0;
+  transform: translatey(-100%);
+  opacity: 1;
+}
+.navbarItem {
+  transition-property: all;
+  transition-delay: 0ms;
+  transition-duration: 0.7s;
+  transition-timing-function: ease-in-out;
+  padding: 30px 20px;
+  position: relative;
+  z-index: 1;
+  color: #787878;
+  font-size: 18px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-weight: 600;
+  text-transform: capitalize;
+  display: block;
+}
+.collapse-navbar > ul > li > a,
+.collapse-navbar > ul > li > div > a {
+  transition-property: all;
+  transition-delay: 0ms;
+  transition-duration: 0.7s;
+  transition-timing-function: ease-in-out;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 30px 20px;
+  position: relative;
+  text-decoration: none;
+  z-index: 1;
+}
+.collapse-navbar > ul > li > a::before,
+.collapse-navbar > ul > li > div > a::before {
+  transition-property: all;
+  transition-delay: 0ms;
+  transition-duration: 0.7s;
+  transition-timing-function: ease-in-out;
+  content: "";
+  position: absolute;
+  top: 52px;
+  left: 0px;
+  height: 25px;
+  width: 100%;
+  background-image: url(../../../images/hover.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: local;
+  z-index: -1;
+  opacity: 0;
+  transform: translatey(-100%);
+}
+.collapse-navbar > ul > li > a.active::before,
+.collapse-navbar > ul > li > div > a.active::before {
+  opacity: 1;
+}
+.collapse-navbar > ul > li > a:hover::before,
+.collapse-navbar > ul > li > div > a:hover::before {
+  opacity: 1;
+}
+.navbar-list {
+  margin: 0px 40px 0px 50px;
+}
+.navbar-list > li {
+  padding: 0px 10px;
+  position: relative;
+}
+.navbar-list > :nth-child(1) > a {
+  position: relative;
+  color: #fff;
+  font-size: 22px;
+}
+.navbar-list > :nth-child(1) > a > span {
+  position: absolute;
+  top: -10px;
+  right: -15px;
+  background: linear-gradient(to left, #18b760, #e9bf3d);
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  color: inherit;
+  border: none;
+  border-radius: 100%;
+  font-size: 16px;
+}
+.navbar-list > :nth-child(2) > a {
+  font-size: 22px;
+  color: #fff;
+}
+@media (max-width: 992px) {
+  .btn-collapse {
+    display: block;
+  }
+  .collapse-navbar {
+    position: fixed;
+    right: 0px;
+    top: -100vh;
+    height: 0px;
+    background-color: green;
+    width: 300px;
+    z-index: 9;
+  }
+  .collapse-navbar.active {
+    height: 100vh;
+    top: 0px;
+  }
+  .collapse-navbar ul li {
+    display: block;
+    padding: 0px 20px;
+  }
+  .collapse-navbar > ul > li > a,
+  .collapse-navbar > ul > li > div > a {
+    padding: 0px 20px;
+  }
+  .navbar-list {
+    z-index: 1;
+  }
+}

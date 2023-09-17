@@ -1,0 +1,178 @@
+.features-area {
+  padding: 50px 0px;
+  background-color: #071738;
+  color: #fff;
+}
+.features-journey {
+  position: relative;
+  z-index: 1;
+  padding: 85px 0px;
+}
+.features-journey::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url(../../../images/v1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: local;
+}
+.features {
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  padding: 17px 46px 23px;
+  text-align: center;
+}
+.features-journey h1 {
+  font-size: 58px;
+  line-height: 60px;
+  margin: 33px 0px;
+  font-weight: 700;
+  padding-right: 50px;
+}
+.features-journey p {
+  color: #cbcfd6;
+  font-size: 18px;
+  line-height: 33px;
+  margin: 30px 0px;
+  font-family: khairah_r;
+}
+.btn-donate {
+  transition-property: all;
+  transition-delay: 0ms;
+  transition-duration: 0.7s;
+  transition-timing-function: ease-in-out;
+  color: #fff;
+  background: linear-gradient(to left, #18b760, #e9bf3d);
+  text-transform: capitalize;
+  font-size: 18px;
+  padding: 10px 50px;
+  border: none;
+  border-radius: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: local;
+}
+.btn-donate:hover {
+  color: #fff;
+  background: linear-gradient(to left, #e9bf3d, #18b760);
+}
+.features-box {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 49% 49%;
+  grid-gap: 20px;
+  align-items: inherit;
+}
+.features-treatment {
+  text-align: center;
+  color: #fff;
+  padding: 40px 20px;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.features-box .features-treatment:nth-child(1) {
+  background-color: #2db85d;
+}
+.features-box .features-treatment::before {
+  transition-property: all;
+  transition-delay: 0ms;
+  transition-duration: 0.7s;
+  transition-timing-function: ease-in-out;
+  content: "";
+  position: absolute;
+  top: -9px;
+  right: -77px;
+  width: 200px;
+  height: 70px;
+  border: 3px solid #414141;
+  transform: rotate(45deg) translate(70px, -70px);
+}
+.features-box .features-treatment:nth-child(1)::before {
+  background: linear-gradient(to left, #e9bf3d, #18b760);
+}
+.features-box .features-treatment div {
+  display: inline-block;
+  margin: auto;
+  position: relative;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  text-align: center;
+  z-index: 1;
+}
+.features-box .features-treatment div::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  border-radius: 100%;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: local;
+}
+.features-box .features-treatment:nth-child(1) div::before {
+  border: 5px solid rgba(191, 158, 158, 0.62);
+}
+.features-box .features-treatment div img {
+  display: inline-block;
+}
+.features-box .features-treatment h2 {
+  margin-top: 20px;
+}
+.features-box .features-treatment h2 a {
+  text-transform: capitalize;
+  font-weight: 700;
+  color: #fff;
+}
+.features-box .features-treatment:nth-child(2) {
+  background-color: #eabf3d;
+}
+.features-box .features-treatment:nth-child(2)::before {
+  background: linear-gradient(to left, #18b760, #e9bf3d);
+}
+.features-box .features-treatment:nth-child(2) div::before {
+  border: 5px solid rgba(191, 158, 158, 0.62);
+}
+.features-box .features-treatment:nth-child(1):hover::before {
+  transform: rotate(45deg) translate(0px, 0px);
+}
+.features-box .features-treatment:nth-child(2):hover::before {
+  transform: rotate(45deg) translate(0px, 0px);
+}
+.features-box .features-treatment:nth-child(3) {
+  background-color: #eabf3d;
+}
+.features-box .features-treatment:nth-child(3)::before {
+  background: linear-gradient(to left, #18b760, #e9bf3d);
+  transform: rotate(45deg) translate(0px, 0px);
+}
+.features-box .features-treatment:nth-child(3) div::before {
+  border: 5px solid rgba(191, 158, 158, 0.62);
+}
+.features-box .features-treatment:nth-child(4) {
+  background-color: #2db85d;
+}
+.features-box .features-treatment:nth-child(4)::before {
+  background: linear-gradient(to left, #e9bf3d, #18b760);
+}
+.features-box .features-treatment:nth-child(4):hover::before {
+  transform: rotate(45deg) translate(0px, 0px);
+}
+.features-box .features-treatment:nth-child(4) div::before {
+  border: 5px solid rgba(191, 158, 158, 0.62);
+}

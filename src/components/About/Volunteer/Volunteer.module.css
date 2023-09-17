@@ -1,0 +1,65 @@
+.volunteer {
+  padding: 70px 0px;
+}
+.great-volunteer {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.great-volunteer h4 {
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 15px 40px 25px;
+  font-weight: 600;
+  font-size: 24px;
+  background-image: url(../../../images/comment2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: local;
+}
+.great-volunteer h1 {
+  font-size: 38px;
+  font-weight: 600;
+  margin: 20px 0px 30px;
+}
+.great-volunteer p {
+  color: #787878;
+  font-family: khairah_r;
+  font-size: 18px;
+  padding: 0px 30px;
+  line-height: 26px;
+}
+.volunteer-person {
+  text-align: center;
+  margin: 10px;
+}
+.volunteer-person .volunteer-img {
+  margin-bottom: 20px;
+}
+.volunteer-person .volunteer-img img {
+  transition-property: all;
+  transition-delay: 0ms;
+  transition-duration: 0.7s;
+  transition-timing-function: ease-in-out;
+  width: 100%;
+}
+.volunteer-person:hover .volunteer-img img {
+  transform: translateY(-20px);
+}
+.volunteer-person .volunteer-content {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 1px 40px 0px rgb(40 63 116 / 10%);
+}
+.volunteer-person .volunteer-content h2 a {
+  transition-property: all;
+  transition-delay: 0ms;
+  transition-duration: 0.7s;
+  transition-timing-function: ease-in-out;
+  color: #212122;
+  font-size: 24px;
+  font-weight: 600;
+}
+.volunteer-person .volunteer-content h2 a:hover {
+  color: #2db85d;
+}

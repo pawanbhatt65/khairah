@@ -1,0 +1,49 @@
+.aboutEveryOne {
+  background-image: url(../../../../images/16.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: local;
+  padding: 150px 0px;
+  position: relative;
+  z-index: 1;
+}
+.aboutEveryOne::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(6, 25, 56, 0.8);
+  z-index: -1;
+}
+.know-about {
+  text-align: center;
+  color: #fff;
+}
+.know-about h1 {
+  text-transform: capitalize;
+  font-size: 70px;
+  font-weight: 800;
+  letter-spacing: 1.6px;
+}
+.know-about p {
+  text-transform: capitalize;
+  font-size: 22px;
+  font-weight: lighter;
+}
+.know-about p a {
+  transition-property: all;
+  transition-delay: 0ms;
+  transition-duration: 0.7s;
+  transition-timing-function: ease-in-out;
+  color: #fff;
+}
+.know-about p a:hover {
+  color: #2db85d;
+}
+.know-about p .about-link {
+  display: inline-block;
+  margin: 0px 10px;
+}

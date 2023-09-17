@@ -1,0 +1,114 @@
+.wait {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+.slider {
+  position: relative;
+  color: #fff;
+  padding: 50px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: local;
+  display: none;
+}
+.slider.active {
+  display: block;
+}
+.slider:nth-child(1) {
+  background-image: url(../../../images/slide-1.jpg);
+}
+.slider:nth-child(2) {
+  display: none;
+  background-image: url(../../../images/slide-2.jpg);
+}
+.slider:nth-child(3) {
+  display: none;
+  background-image: url(../../../images/slide-3.jpg);
+}
+.colBox {
+  z-index: 3;
+}
+.wait-food-comment {
+  position: relative;
+  z-index: 1;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 32px;
+  display: inline-block;
+}
+.wait-food-comment::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: -28px;
+  height: 100%;
+  width: 220px;
+  background-image: url(../../../images/comment.png);
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: local;
+}
+.wait-children {
+  font-size: 150px;
+  text-transform: capitalize;
+  font-weight: bolder;
+  margin: 30px 0px;
+}
+.wait-food > p {
+  font-size: 20px;
+  padding-right: 410px;
+  font-weight: 400;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  line-height: 30px;
+}
+.wait-food > a {
+  transition-property: all;
+  transition-delay: 0ms;
+  transition-duration: 0.7s;
+  transition-timing-function: ease-in-out;
+  font-size: 20px;
+  background: linear-gradient(to left, #18b760, #e9bf3d 50%, #18b760);
+  color: #fff;
+  border: none;
+  background-size: 200%, 1px;
+  border-radius: 30px;
+  display: inline-block;
+  padding: 10px 22px;
+}
+.wait-food > a:hover {
+  color: #fff;
+  background: linear-gradient(to right, #e9bf3d, #18b760 50%, #e9bf3d);
+  background-size: 200%, 1px;
+}
+.wait-food > a > i {
+  margin-left: 15px;
+}
+.slider-slide {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+.dots {
+  position: absolute;
+  top: 50%;
+  right: 200px;
+  z-index: 9999;
+}
+.dot {
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 100%;
+  background-color: #eabf3d;
+  margin: 5px;
+}
+.dot.dot-active {
+  background-color: #fff;
+  border: 3px solid #2db85d;
+}

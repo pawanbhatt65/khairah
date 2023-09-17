@@ -1,0 +1,127 @@
+.comment {
+  background-color: #071738;
+  overflow: hidden;
+  padding: 70px 0px 110px;
+  color: #fff;
+  position: relative;
+}
+.comment::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 50%;
+  border-top: 3px solid rgba(255, 255, 255, 0.1);
+  z-index: 1;
+}
+.testimonial {
+  position: relative;
+}
+.join-person {
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  width: 30%;
+  margin: auto;
+}
+.join-person::before {
+  content: "";
+  position: absolute;
+  bottom: -90px;
+  left: 0px;
+  background: linear-gradient(to left, #e9bf3d, #18b760);
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 100%;
+  z-index: -1;
+  opacity: 1;
+}
+.person-query ul {
+  margin-top: 30px;
+}
+.person-query ul li:nth-child(1) {
+  color: #eabf3d;
+}
+.person-query ul li:nth-child(2) {
+  color: #eabf3d;
+}
+.person-query ul li:nth-child(3) {
+  color: #eabf3d;
+}
+.person-query ul li:nth-child(4) {
+  color: #ffc039;
+}
+.person-query ul li:nth-child(5) {
+  color: #ffc039;
+}
+.person-query p {
+  font-size: 20px;
+  margin-top: 30px;
+  padding: 0px 280px;
+  font-weight: 500;
+}
+.info {
+  margin-top: 25px;
+}
+.info h5 {
+  color: #ffc039;
+  font-weight: 700;
+  font-size: 28px;
+}
+.info p {
+  color: #2db85d;
+  font-family: khairah_r;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 7px;
+  padding: 0px;
+}
+.testimonial-arrow {
+  transition-property: all;
+  transition-delay: 0ms;
+  transition-duration: 0.7s;
+  transition-timing-function: ease-in-out;
+  position: absolute;
+  background-color: #eabf3d;
+  color: #fff;
+  top: 30%;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  border-radius: 100%;
+}
+.testimonial-next {
+  right: 195px;
+}
+.testimonial-arrow:hover {
+  background-color: #2db85d;
+}
+.testimonial-prev {
+  left: 195px;
+}
+.testimonial-arrow:hover {
+  background-color: #2db85d;
+}
+.comment .testimonial-shape-1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 50%;
+  z-index: -1;
+}
+.comment .testimonial-shape-2 {
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+.testimonial-slider:nth-child(2) .person-query ul {
+  margin-top: 90px;
+}

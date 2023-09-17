@@ -1,0 +1,118 @@
+.areaHomeStyle2 {
+  padding: 100px 0px;
+}
+.video-area {
+  position: relative;
+}
+.video-area img {
+  width: 100%;
+}
+.video-area .video-play-area {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: auto;
+  background-color: transparent;
+  transform: translate(-50%, -50%);
+}
+.video-area .video-play-area a {
+  transition-property: all;
+  transition-delay: 0ms;
+  transition-duration: 0.7s;
+  transition-timing-function: ease-in-out;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  background-color: rgba(88, 92, 100, 0.89);
+  border-radius: 100%;
+  display: inline-block;
+  font-size: 60px;
+}
+.video-area .video-play-area a i {
+  color: transparent;
+}
+.video-area .video-play-area a i::before {
+  background: linear-gradient(to left, #18b760, #e9bf3d);
+  -webkit-background-clip: text;
+}
+.area-org .about-us {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 26px;
+  padding: 13px 56px 21px;
+  display: inline-block;
+}
+.area-org .about-us::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 188px;
+  background-image: url(../../../images/comment2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: local;
+  background-size: contain;
+}
+.area-org h1 {
+  font-size: 62px;
+  font-weight: 800;
+  margin: 20px 0px;
+}
+.area-org h1 span:nth-child(1) {
+  color: #eabf3d;
+}
+.area-org h1 span:nth-child(2) {
+  color: #2db85d;
+}
+.area-org ul {
+  margin-top: 20px;
+}
+.area-org ul li {
+  position: relative;
+  padding-left: 120px;
+  z-index: 1;
+}
+.area-org ul li::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: local;
+  background-size: inherit;
+  height: 100px;
+  width: 100px;
+  border: none;
+  border-radius: 100%;
+  z-index: -1;
+}
+.area-org ul li:nth-child(1)::before {
+  background-color: #d7f5e7;
+  background-image: url(../../../images/1.png);
+}
+.area-org ul li a {
+  color: #212122;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 44px;
+}
+.area-org ul li:nth-child(2)::before {
+  background-color: #faf4e8;
+  background-image: url(../../../images/2.png);
+}
+.area-org ul li a {
+  color: #212122;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 44px;
+}
+.area-org ul li a:hover {
+  color: #2db85d;
+}

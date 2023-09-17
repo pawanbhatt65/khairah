@@ -1,0 +1,123 @@
+.our-contact {
+  padding: 80px 0px;
+}
+.error-message {
+  color: #ff0000;
+  display: none;
+}
+input:invalid[focused="true"] {
+  border: 1px solid #ff0000;
+}
+input:invalid[focused="true"] ~ .error-message {
+  display: block;
+}
+.our-contact-side {
+  margin: auto;
+}
+.our-contact-description {
+  text-align: left;
+}
+.our-contact-description h2 {
+  color: #212122;
+  line-height: 1.3em;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.our-contact-description p {
+  color: #787878;
+  line-height: 1.63em;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.location-phone-email {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 9% 89%;
+  margin-top: 45px;
+}
+.icon-img {
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  font-size: 1.25rem;
+  color: #18b760;
+}
+.info h5 {
+  font-size: 1.25rem;
+  margin: 0 0 0.3em;
+  color: #212122;
+  line-height: 1.3em;
+}
+.info p {
+  color: #787878;
+  line-height: 1.63em;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.quick-contact-form {
+  margin: auto;
+}
+.quick-contact-form h2 {
+  color: #212122;
+  line-height: 1.3em;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.quick-contact-form_form {
+  margin-top: 45px;
+}
+.form-name {
+  margin: 0 0px 30px;
+}
+.form-name input,
+.form-name textarea {
+  background: #f8f8f8;
+  width: 100%;
+  height: 45px;
+  border: 1px solid transparent;
+  color: #666;
+  border-radius: 0;
+  padding: 6px 18px;
+  box-shadow: none;
+  font-size: 18px;
+}
+.form-name input:focus,
+.form-name textarea:focus {
+  box-shadow: none;
+  border-color: #18b760;
+}
+.form-name textarea {
+  height: 170px;
+}
+.submit-btn {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  display: inline-block;
+  padding: 12px 60px 12px 30px;
+  border: 0;
+  display: inline-block;
+  border-radius: 40px;
+  position: relative;
+  background: linear-gradient(to left, #18b760, #e9bf3d 50%, #18b760);
+  background-size: 200%, 1px;
+  background-position: 0;
+  transition: all 0.3s;
+  padding-right: 27px;
+}
+.submit-btn:is(:focus, :hover) {
+  background-position: 100% !important;
+  color: #fff;
+}
+.map {
+  margin-top: 75px;
+}
+.map iframe {
+  width: 100%;
+  height: 450px;
+}

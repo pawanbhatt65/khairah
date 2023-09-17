@@ -1,0 +1,61 @@
+@font-face {
+  font-family: khairah;
+  src: local("khairah"), url(./fonts/khairah.ttf) format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: khairah_r;
+  src: local("khairah"), url(./fonts/khairah_r.ttf) format("truetype");
+  font-display: swap;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+li {
+  list-style: none;
+}
+a,
+a:active,
+a:hover {
+  text-decoration: none;
+}
+body {
+  font-family: khairah;
+}
+
+/* for home page slider css start */
+.testimonial-slider.active-slider {
+  display: block;
+}
+.testimonial-slider {
+  display: none;
+}
+/* for home page slider css end */
+
+::-webkit-scrollbar {
+  width: 16px;
+}
+::-webkit-scrollbar-track {
+  background-color: rgb(90, 42, 42);
+}
+::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  border: 5px solid transparent;
+  background-clip: content-box;
+  width: 10px;
+  display: block;
+  border-radius: 10px;
+}

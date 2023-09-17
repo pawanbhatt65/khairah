@@ -1,0 +1,23 @@
+.scrollToTop {
+  transition-property: all;
+  transition-delay: 0ms;
+  transition-duration: 0.7s;
+  transition-timing-function: ease-in-out;
+  border-radius: 10px;
+  color: #fff;
+  background: linear-gradient(to left, #18b760, #e9bf3d);
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 22px;
+  position: fixed;
+  bottom: 7px;
+  right: 7px;
+  border: none;
+  z-index: 1;
+  text-align: center;
+}
+.scrollToTop:is(:hover, :focus) {
+  background: linear-gradient(to left, #e9bf3d, #18b760);
+  transform: translateY(-10px);
+}
